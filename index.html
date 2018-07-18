@@ -92,7 +92,7 @@
     popupBkg.scaleX = stage.canvas.width/1280;
     popupBkg.scaleY = stage.canvas.height/720;
     var h = new createjs.Shape();
-    h.graphics.beginFill('#000').drawRect(650/720*popupBkg.image.width,0,60/720*popupBkg.image.width,50/260*popupBkg.image.height);
+    h.graphics.beginFill('#000').drawRect(640/720*popupBkg.image.width,0,60/720*popupBkg.image.width,50/260*popupBkg.image.height);
     popupBkg.hitArea = h;
     popupCont.width = popupBkg.width;
     popupCont.height = popupBkg.height;   
@@ -244,18 +244,7 @@ function queueComplete(event) {
   playButton = new createjs.Bitmap(imgByName('playactive.svg'));
   playButton.addEventListener('click',function(event){
     if (!isPlaying){
-      playButton.image = imgByName('playinactive.svg');
-      isPlaying = true;
-      frame = 0;
-      plant.visible = false;
-      plant = frameFromSheet(frame);
-      plant.visible = true;
-      drawPlant();
-      timeWithoutWater = 0;
-      timeWithSun = 0;
-      time = 0;
-      waterLevel = 1;
-      popupHide();
+      initSim();
     }
   });
   stage.addChild(playButton);
@@ -268,14 +257,26 @@ function queueComplete(event) {
   popupTxt = new createjs.Text(this.txt,'20px Arial', 'white');
   popupCont.addChild(popupBkg);
 
-  initLevel(0);
   resize();
   window.addEventListener('resize', resize, false);
   createjs.Ticker.on('tick', tick);
   createjs.Ticker.framerate = 10;
 }
 
-function initLevel(newLevel) {
+function initSim(newLevel) {
+      playButton.image = imgByName('playinactive.svg');
+      isPlaying = true;
+      frame = 0;
+      plant.visible = false;
+      plant = frameFromSheet(frame);
+      plant.visible = true;
+      drawPlant();
+      timeWithoutWater = 0;
+      timeWithSun = 0;
+      time = 0;
+      waterLevel = 1;
+      popupHide();
+
 }
 
 function resize() {
@@ -394,26 +395,30 @@ function tick(){
     if (isWindowOpen){
       timeWithSun += 1;
     }
+
+
     if (time % 78 == 0){
       if (timeWithSun/time < sunThreshold){
         pu = new popup();
         popupSetTxt("Το φυτό δεν είχε πολύ φως! \n Άνοιξες το παράθυρο;");
         popupShow();
         isPlaying = false;
+        playButton.image = imgByName('playactive.svg');
         return;
       }
       if (frame < 7){
         frame += 1;
-        console.log(frame);
+        plant.visible = false;
+        plant = frameFromSheet(frame);
+        plant.visible = true;
       }
       else{
         pu = new popup();
         popupSetTxt("Μπράβο! Τα κατάφερες!");
         popupShow();
         isPlaying = false;
+        playButton.image = imgByName('playactive.svg');        
       }
-      plant.visible = false;
-      plant = frameFromSheet(frame);
     }
     if (isWatering){
       timeWithoutWater = 0;
