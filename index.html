@@ -34,7 +34,7 @@
 <script>
   var stage;
   var resourceNames = ['background.svg', 'bar_home.svg', 'bar_help.svg', 'bar_about.svg', 'bar_previous.svg', 'bar_next.svg', 
-  'openwindow.svg', 'closewindow.svg', 'soilmoist.svg' , 'potistiri.svg', 'plant.png'];
+  'openwindow.svg', 'closewindow.svg', 'potistiri.svg', 'plant.png', 'popup.svg','playactive.svg','playinactive.svg'];
   var resourcesLoaded = 0;
   var resources = [];
   var ratio = 16/9;
@@ -46,15 +46,89 @@
   var bg;
   var statusText;
   var theWindow;
-  var soilMoist;
+  var isWindowOpen;
   var potistiri;
   var plant;
+  var popupCont;
+  var popupBkg;
+  var popupTxt;
+  var pu;
+  var playButton;
+  var waterbarCont;
+  var waterbar = new createjs.Shape();
+  var waterLevel = 1;
+
+  function popup(){
+    this.setTxt = popupSetTxt;
+    this.show = popupShow;
+    this.hide = popupHide;
+    this.resize = popupResize;
+    //this.resize = popupResize;
+  }
+  function popupHide(){
+    popupBkg.visible = false;
+    popupTxt.visible = false;
+    stage.update();
+  }
+  function popupSetTxt(txt){
+    this.txt = txt;
+  }
+
+  function popupResize(){
+    popupTxt.font = parseInt(stage.canvas.height/30) + "px Arial";
+    popupTxt.x = 34/1280*stage.canvas.width;
+    popupTxt.y = 86/720*stage.canvas.height;
+    popupCont.x = 280/1280*stage.canvas.width;
+    popupCont.y = 210/720*stage.canvas.height;
+    popupBkg.scaleX = stage.canvas.width/1280;
+    popupBkg.scaleY = stage.canvas.height/720;
+    var h = new createjs.Shape();
+    h.graphics.beginFill('#000').drawRect(650/720*popupBkg.image.width,0,60/720*popupBkg.image.width,50/260*popupBkg.image.height);
+    popupBkg.hitArea = h;
+    popupCont.width = popupBkg.width;
+    popupCont.height = popupBkg.height;   
+    stage.setChildIndex(popupCont,stage.numChildren-1);
+  }
+
+  function popupShow(){
+    this.resize();
+    popupTxt.text = this.txt;
+    popupBkg.addEventListener('click',function(e){
+      pu.hide();
+      });
+    popupBkg.visible = true;
+    popupTxt.visible = true;
+    popupCont.addChild(popupBkg);
+    popupCont.addChild(popupTxt);
+    stage.addChild(popupCont);
+    stage.setChildIndex(popupCont,stage.numChildren-1);
+    stage.update();
+  }
+
+
+  function drawWaterbar(){
+    waterbarCont.x = 900 / 1120 * stage.canvas.width;
+    waterbarCont.y = 200 / 640 * stage.canvas.height;
+    var targetHeight = 250 / 640 * stage.canvas.height;
+    waterbar.graphics.clear();
+
+    waterbar.graphics.beginStroke('black').drawRect(0,0,stage.canvas.width/50,targetHeight).beginStroke().beginFill('white').drawRect(0,0,stage.canvas.width/50,targetHeight*(1-waterLevel)).beginFill('blue').drawRect(0,targetHeight*(1-waterLevel),stage.canvas.width/50,targetHeight*waterLevel);
+    waterbarCont.addChild(waterbar);
+    stage.setChildIndex(waterbarCont,stage.numChildren-1);
+  }
 
 
   function init(){
     console.clear();
     stage = new createjs.Stage("mainCanvas");
     stage.enableMouseOver();
+    popupCont = new createjs.Container();
+    stage.addChild(popupCont);
+    waterbarCont = new createjs.Container();
+    waterbarCont.addChild(waterbar);
+    stage.addChild(waterbarCont);
+
+
     statusText = new createjs.Text("Φόρτωση...", "20px Arial", "white");
   	statusText.textAlign = "center";
   	statusText.textBaseline = "middle";
@@ -109,19 +183,40 @@ function queueComplete(event) {
   }
 
   theWindow = new createjs.Bitmap(imgByName('openwindow.svg'));
+  var h = new createjs.Shape();
+  h.graphics.beginFill('black').drawRect(0,0,theWindow.image.height,theWindow.image.width);
+  theWindow.hitArea = h;
+  isWindowOpen = true;
+  theWindow.addEventListener('click',function(event){
+    if (isWindowOpen){
+      theWindow.image = imgByName('closewindow.svg');
+      isWindowOpen = false;
+    }
+    else{
+      theWindow.image = imgByName('openwindow.svg');
+      isWindowOpen = true;
+    }
+    stage.update();
+  });
   stage.addChild(theWindow);
-  soilMoist = new createjs.Bitmap(imgByName('soilmoist.svg'));
-  stage.addChild(soilMoist);
   potistiri = new createjs.Bitmap(imgByName('potistiri.svg'));
   stage.addChild(potistiri);
+  playButton = new createjs.Bitmap(imgByName('playactive.svg'));
+  stage.addChild(playButton);
   
   plant = frameFromSheet(7);
   stage.addChild(plant);
 
+  popupBkg = new createjs.Bitmap(imgByName('popup.svg'));
+  popupBkg.visible = false; //it will be handled by popupShow and popupHide later
+  popupTxt = new createjs.Text(this.txt,'20px Arial', 'white');
+  popupCont.addChild(popupBkg);
+
   initLevel(0);
   resize();
   window.addEventListener('resize', resize, false);
-  createjs.Ticker.on("tick", tick);  
+  createjs.Ticker.on('tick', tick);
+  createjs.Ticker.framerate = 10;
 }
 
 function initLevel(newLevel) {
@@ -149,10 +244,7 @@ function resize() {
   // TODO: local/global variables, eslint...
   for (i = 0; i < 3; i++) {
     // Leave one space for the level
-    if (i < 4)
-      j = i;
-    else
-      j = i + 1;
+    j = i;
     menubar[i].scaleX = bbs / menubar[i].image.width;
     menubar[i].scaleY = bbs / menubar[i].image.height;
     menubar[i].regX = menubar[i].image.width / 2;
@@ -173,12 +265,6 @@ function resize() {
   theWindow.x = stage.canvas.width / 2;
   theWindow.y = stage.canvas.height / 2;
 
-  targetWidth = 90 / 1120 * stage.canvas.width;
-  scale = targetWidth / soilMoist.image.width;
-  soilMoist.scaleX = scale;
-  soilMoist.scaleY = scale;
-  soilMoist.x = 240 / 1120 * stage.canvas.width;
-  soilMoist.y = 330 / 640 * stage.canvas.height;
 
   targetWidth = 200 / 1220 * stage.canvas.width;
   scale = targetWidth / potistiri.image.width;
@@ -187,6 +273,16 @@ function resize() {
   potistiri.x = 330 / 1120 * stage.canvas.width;
   potistiri.y = 330 / 640 * stage.canvas.height;
 
+  targetWidth = 150 / 1220 * stage.canvas.width;
+  scale = targetWidth / playButton.image.width;
+  playButton.scaleX = scale;
+  playButton.scaleY = scale;
+  playButton.regX = playButton.image.width / 2;
+  playButton.regY = playButton.image.height / 2;
+  playButton.x = stage.canvas.width / 2;
+  playButton.y = stage.canvas.height - bbm - bbs/2;
+
+
   plant.x = stage.canvas.width / 2;
   plant.y = stage.canvas.height / 2;
 
@@ -194,10 +290,20 @@ function resize() {
   bg.scaleX = stage.canvas.width / bg.image.width;
   bg.scaleY = stage.canvas.height / bg.image.height;
 
+
+  //resize popup if it exists
+  if (pu){
+    pu.resize();
+  }
+
+
   // Bring statusText in front of everything
   statusText.textAlign = "right";
   statusText.textBaseline = "alphabetic";
   stage.setChildIndex(statusText, stage.numChildren - 1);
+
+
+  drawWaterbar();
 
   stage.update();
 }
@@ -224,7 +330,11 @@ function onMenuAbout(event) {
 }
 
 function tick(){
-
+  if (waterLevel > 0){
+    waterLevel -= 0.005
+  }
+  drawWaterbar();
+  stage.update();
 }
 
 //helper functions
