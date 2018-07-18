@@ -49,6 +49,7 @@
   var isWindowOpen;
   var potistiri;
   var plant;
+  var waterBarText;
   var popupCont;
   var popupBkg;
   var popupTxt;
@@ -57,6 +58,14 @@
   var waterbarCont;
   var waterbar = new createjs.Shape();
   var waterLevel = 1;
+  var isWatering;
+  var time = 0;
+  var frame = 0;
+  var timeWithoutWater = 0;//plant is dying if left without water for much time
+  var waterThreshold = 20;
+  var timeWithSun = 0; //plant will die if left without sun for some sunPercentage
+  var sunThreshold = 0.3;
+  var isPlaying = false;
 
   function popup(){
     this.setTxt = popupSetTxt;
@@ -105,6 +114,19 @@
     stage.update();
   }
 
+  function drawPlant(){
+    plant.regX = 175 / 2; //width of each plant frame is 175
+    plant.regY = 519 / 2; //height of each plant frame is 519
+    targetWidth = 100 / 1120 * stage.canvas.width;
+    scale = targetWidth / 175;
+    plant.scaleX = scale;
+    plant.scaleY = scale;
+    plant.x = stage.canvas.width / 2;
+    plant.y = 500/640*stage.canvas.height;
+    stage.addChild(plant);
+    stage.setChildIndex(plant,stage.numChildren-1);
+  } 
+
 
   function drawWaterbar(){
     waterbarCont.x = 900 / 1120 * stage.canvas.width;
@@ -127,8 +149,8 @@
     waterbarCont = new createjs.Container();
     waterbarCont.addChild(waterbar);
     stage.addChild(waterbarCont);
-
-
+    waterBarText = new createjs.Text('ΝΕΡΟ','20px Arial', 'black');
+    stage.addChild(waterBarText);
     statusText = new createjs.Text("Φόρτωση...", "20px Arial", "white");
   	statusText.textAlign = "center";
   	statusText.textBaseline = "middle";
@@ -182,29 +204,63 @@ function queueComplete(event) {
     stage.addChild(menubar[i]);
   }
 
-  theWindow = new createjs.Bitmap(imgByName('openwindow.svg'));
+  theWindow = new createjs.Bitmap(imgByName('closewindow.svg'));
+  isWindowOpen = false;
+
   var h = new createjs.Shape();
-  h.graphics.beginFill('black').drawRect(0,0,theWindow.image.height,theWindow.image.width);
+  h.graphics.beginFill('black').drawRect(0,0,theWindow.image.width,theWindow.image.height);
   theWindow.hitArea = h;
-  isWindowOpen = true;
   theWindow.addEventListener('click',function(event){
-    if (isWindowOpen){
-      theWindow.image = imgByName('closewindow.svg');
-      isWindowOpen = false;
+    if (isPlaying){
+      if (isWindowOpen){
+        theWindow.image = imgByName('closewindow.svg');
+        isWindowOpen = false;
+      }
+      else{
+        theWindow.image = imgByName('openwindow.svg');
+        isWindowOpen = true;
+      }
+      stage.update();
     }
-    else{
-      theWindow.image = imgByName('openwindow.svg');
-      isWindowOpen = true;
-    }
-    stage.update();
   });
   stage.addChild(theWindow);
   potistiri = new createjs.Bitmap(imgByName('potistiri.svg'));
+  isWatering = false;
+  potistiri.addEventListener('mousedown',function(event){
+    if (isPlaying){
+      potistiri.rotation = 45;
+      isWatering = true;
+    }
+  });
+  potistiri.addEventListener('click',function(event){//used as mouseup
+    potistiri.rotation = 0;
+    isWatering = false;
+  })
+  potistiri.addEventListener('pressup',function(event){
+    potistiri.rotation = 0;
+    isWatering = false;
+  });
   stage.addChild(potistiri);
   playButton = new createjs.Bitmap(imgByName('playactive.svg'));
+  playButton.addEventListener('click',function(event){
+    if (!isPlaying){
+      playButton.image = imgByName('playinactive.svg');
+      isPlaying = true;
+      frame = 0;
+      plant.visible = false;
+      plant = frameFromSheet(frame);
+      plant.visible = true;
+      drawPlant();
+      timeWithoutWater = 0;
+      timeWithSun = 0;
+      time = 0;
+      waterLevel = 1;
+      popupHide();
+    }
+  });
   stage.addChild(playButton);
   
-  plant = frameFromSheet(7);
+  plant = frameFromSheet(0);
   stage.addChild(plant);
 
   popupBkg = new createjs.Bitmap(imgByName('popup.svg'));
@@ -270,8 +326,10 @@ function resize() {
   scale = targetWidth / potistiri.image.width;
   potistiri.scaleX = scale;
   potistiri.scaleY = scale;
+  potistiri.regX = potistiri.image.width / 2;
+  potistiri.regY = potistiri.image.height / 2;
   potistiri.x = 330 / 1120 * stage.canvas.width;
-  potistiri.y = 330 / 640 * stage.canvas.height;
+  potistiri.y = 450 / 640 * stage.canvas.height;
 
   targetWidth = 150 / 1220 * stage.canvas.width;
   scale = targetWidth / playButton.image.width;
@@ -283,13 +341,14 @@ function resize() {
   playButton.y = stage.canvas.height - bbm - bbs/2;
 
 
-  plant.x = stage.canvas.width / 2;
-  plant.y = stage.canvas.height / 2;
-
   // Fill all the canvas with the background
   bg.scaleX = stage.canvas.width / bg.image.width;
   bg.scaleY = stage.canvas.height / bg.image.height;
 
+  waterBarText.font = parseInt(stage.canvas.height/30) + "px Arial";
+  waterBarText.x = 1000/1280*stage.canvas.width;
+  waterBarText.y = 180/720*stage.canvas.height;
+  stage.addChild(waterBarText);
 
   //resize popup if it exists
   if (pu){
@@ -302,9 +361,9 @@ function resize() {
   statusText.textBaseline = "alphabetic";
   stage.setChildIndex(statusText, stage.numChildren - 1);
 
-
+  
   drawWaterbar();
-
+  drawPlant();
   stage.update();
 }
 
@@ -330,11 +389,57 @@ function onMenuAbout(event) {
 }
 
 function tick(){
-  if (waterLevel > 0){
-    waterLevel -= 0.005
+  if (isPlaying){
+    time += 1;
+    if (isWindowOpen){
+      timeWithSun += 1;
+    }
+    if (time % 78 == 0){
+      if (timeWithSun/time < sunThreshold){
+        pu = new popup();
+        popupSetTxt("Το φυτό δεν είχε πολύ φως! \n Άνοιξες το παράθυρο;");
+        popupShow();
+        isPlaying = false;
+        return;
+      }
+      if (frame < 7){
+        frame += 1;
+        console.log(frame);
+      }
+      else{
+        pu = new popup();
+        popupSetTxt("Μπράβο! Τα κατάφερες!");
+        popupShow();
+        isPlaying = false;
+      }
+      plant.visible = false;
+      plant = frameFromSheet(frame);
+    }
+    if (isWatering){
+      timeWithoutWater = 0;
+      if (waterLevel < 1){
+        waterLevel += 0.01;
+      }
+    }
+    else{//if it's not watering
+      if (waterLevel > 0){
+        waterLevel -= 0.01
+      }
+      else{
+        timeWithoutWater += 1;
+        if (timeWithoutWater > waterThreshold){
+          pu = new popup();
+          popupSetTxt("Το φυτό δεν ποτίστηκε αρκετά.");
+          popupShow();
+          isPlaying = false;
+          playButton.image = imgByName('playactive.svg');
+        }
+      }
+    }
+    drawPlant();
+    drawWaterbar();
+    stage.update();
   }
-  drawWaterbar();
-  stage.update();
 }
 
 //helper functions
