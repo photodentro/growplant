@@ -43,9 +43,9 @@
      inkscape:window-height="705"
      id="namedview1064"
      showgrid="false"
-     inkscape:zoom="0.33587572"
-     inkscape:cx="11.642676"
-     inkscape:cy="186.22626"
+     inkscape:zoom="0.65189096"
+     inkscape:cx="667.10396"
+     inkscape:cy="364.0421"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -1598,26 +1598,6 @@
          stop-color="#710A04"
          id="stop196" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#Gradient_16"
-       id="linearGradient1985"
-       gradientUnits="userSpaceOnUse"
-       x1="401.33749"
-       y1="112.1"
-       x2="222.7625"
-       y2="112.1"
-       spreadMethod="pad" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#Gradient_15"
-       id="linearGradient1991"
-       gradientUnits="userSpaceOnUse"
-       x1="312.29999"
-       y1="133.41251"
-       x2="312.29999"
-       y2="111.8875"
-       spreadMethod="pad" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath3609">
@@ -2346,1439 +2326,2431 @@
        apply_no_weight="true"
        apply_with_weight="true"
        only_selected="false" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3609-9">
+      <rect
+         style="fill:#323232;fill-opacity:1;stroke:#554345;stroke-width:2.5999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:10.4, 2.6;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3611-0"
+         width="1247.4852"
+         height="732.41376"
+         x="-671.04596"
+         y="-586.81592" />
+    </clipPath>
+    <filter
+       id="Filter_1-1"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix216-3" />
+    </filter>
+    <filter
+       id="Filter_2-93"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.15 0"
+         result="result1"
+         id="feColorMatrix219-4" />
+    </filter>
+    <filter
+       id="filter8187"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8185" />
+    </filter>
+    <filter
+       id="filter8191"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8189" />
+    </filter>
+    <filter
+       id="Filter_3-27"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.45 0"
+         result="result1"
+         id="feColorMatrix222-6" />
+    </filter>
+    <filter
+       id="Filter_4-2"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0"
+         result="result1"
+         id="feColorMatrix225-4" />
+    </filter>
+    <filter
+       id="Filter_5-74"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.2 0"
+         result="result1"
+         id="feColorMatrix228-3" />
+    </filter>
+    <filter
+       id="Filter_6-5"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix231-8" />
+    </filter>
+    <filter
+       id="filter8233"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix8231" />
+    </filter>
+    <filter
+       id="filter8237"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix8235" />
+    </filter>
+    <filter
+       id="filter8262"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix8260" />
+    </filter>
+    <filter
+       id="filter8266"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8264" />
+    </filter>
+    <filter
+       id="filter8300"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.2 0"
+         result="result1"
+         id="feColorMatrix8298" />
+    </filter>
+    <filter
+       id="filter8304"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix8302" />
+    </filter>
+    <filter
+       id="filter8308"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix8306" />
+    </filter>
+    <filter
+       id="filter8312"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix8310" />
+    </filter>
+    <filter
+       id="filter8337"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix8335" />
+    </filter>
+    <filter
+       id="filter8341"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8339" />
+    </filter>
+    <filter
+       id="filter8375"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.2 0"
+         result="result1"
+         id="feColorMatrix8373" />
+    </filter>
+    <filter
+       id="filter8379"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix8377" />
+    </filter>
+    <filter
+       id="filter8383"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix8381" />
+    </filter>
+    <filter
+       id="filter8387"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix8385" />
+    </filter>
+    <filter
+       id="filter8412"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix8410" />
+    </filter>
+    <filter
+       id="filter8416"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8414" />
+    </filter>
+    <filter
+       id="filter8447"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result1"
+         id="feColorMatrix8445" />
+    </filter>
+    <filter
+       id="filter8451"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8449" />
+    </filter>
+    <filter
+       id="filter8479"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8477" />
+    </filter>
+    <filter
+       id="filter8507"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8505" />
+    </filter>
+    <filter
+       id="filter8511"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8509" />
+    </filter>
+    <filter
+       id="filter8515"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8513" />
+    </filter>
+    <filter
+       id="filter8543"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0"
+         result="result1"
+         id="feColorMatrix8541" />
+    </filter>
+    <filter
+       id="filter8547"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0"
+         result="result1"
+         id="feColorMatrix8545" />
+    </filter>
+    <filter
+       id="filter8551"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8549" />
+    </filter>
+    <filter
+       id="filter8555"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8553" />
+    </filter>
+    <filter
+       id="filter8559"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.2 0"
+         result="result1"
+         id="feColorMatrix8557" />
+    </filter>
+    <filter
+       id="filter8563"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.2 0"
+         result="result1"
+         id="feColorMatrix8561" />
+    </filter>
+    <filter
+       id="filter8567"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.2 0"
+         result="result1"
+         id="feColorMatrix8565" />
+    </filter>
+    <filter
+       id="Filter_7-7"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0"
+         result="result1"
+         id="feColorMatrix234-5" />
+    </filter>
+    <filter
+       id="filter8591"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0"
+         result="result1"
+         id="feColorMatrix8589" />
+    </filter>
+    <filter
+       id="filter8604"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8602" />
+    </filter>
+    <filter
+       id="filter8608"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8606" />
+    </filter>
+    <filter
+       id="filter8612"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0"
+         result="result1"
+         id="feColorMatrix8610" />
+    </filter>
+    <filter
+       id="filter8616"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0"
+         result="result1"
+         id="feColorMatrix8614" />
+    </filter>
+    <filter
+       id="filter8620"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0"
+         result="result1"
+         id="feColorMatrix8618" />
+    </filter>
+    <filter
+       id="filter8624"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0"
+         result="result1"
+         id="feColorMatrix8622" />
+    </filter>
+    <filter
+       id="filter8676"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8674" />
+    </filter>
+    <filter
+       id="filter8680"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0"
+         result="result1"
+         id="feColorMatrix8678" />
+    </filter>
+    <filter
+       id="filter8684"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0"
+         result="result1"
+         id="feColorMatrix8682" />
+    </filter>
+    <filter
+       id="filter8688"
+       x="-0.2"
+       y="-0.2"
+       width="1.4"
+       height="1.4"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0"
+         result="result1"
+         id="feColorMatrix8686" />
+    </filter>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1424-2"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_1"
+       id="linearGradient6578"
+       gradientUnits="userSpaceOnUse"
+       x1="223.66251"
+       y1="376"
+       x2="880.03748"
+       y2="376"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_2"
+       id="linearGradient6648"
+       gradientUnits="userSpaceOnUse"
+       x1="445.83749"
+       y1="205.78751"
+       x2="450.46249"
+       y2="207.6125"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_5"
+       id="linearGradient6670"
+       gradientUnits="userSpaceOnUse"
+       x1="435.61249"
+       y1="207.1125"
+       x2="439.48749"
+       y2="207.4875"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_4"
+       id="linearGradient6700"
+       gradientUnits="userSpaceOnUse"
+       x1="436.07501"
+       y1="204.47501"
+       x2="440.92499"
+       y2="204.925"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_3"
+       id="linearGradient6710"
+       gradientUnits="userSpaceOnUse"
+       x1="444.60001"
+       y1="208.2625"
+       x2="448.29999"
+       y2="209.7375"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_6"
+       id="linearGradient6716"
+       gradientUnits="userSpaceOnUse"
+       x1="435.35001"
+       y1="249.2375"
+       x2="440.14999"
+       y2="247.8625"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_7"
+       id="linearGradient6726"
+       gradientUnits="userSpaceOnUse"
+       x1="434.38751"
+       y1="246.60001"
+       x2="438.21249"
+       y2="245.5"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_10"
+       id="linearGradient6736"
+       gradientUnits="userSpaceOnUse"
+       x1="630.04999"
+       y1="360.5625"
+       x2="630.04999"
+       y2="246.03751"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_8"
+       id="linearGradient6746"
+       gradientUnits="userSpaceOnUse"
+       x1="426.42499"
+       y1="236.125"
+       x2="447.77499"
+       y2="234.875"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_9"
+       id="linearGradient6756"
+       gradientUnits="userSpaceOnUse"
+       x1="467.78751"
+       y1="360.6875"
+       x2="465.3125"
+       y2="241.3125"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_11"
+       id="linearGradient6766"
+       gradientUnits="userSpaceOnUse"
+       x1="664.51251"
+       y1="269.92499"
+       x2="405.88751"
+       y2="236.27499"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_14"
+       id="linearGradient6792"
+       gradientUnits="userSpaceOnUse"
+       x1="459.35001"
+       y1="160.075"
+       x2="456.04999"
+       y2="181.52499"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_13"
+       id="linearGradient6806"
+       gradientUnits="userSpaceOnUse"
+       x1="475.75"
+       y1="169.47501"
+       x2="472.25"
+       y2="192.22501"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_12"
+       id="linearGradient6828"
+       gradientUnits="userSpaceOnUse"
+       x1="504.9375"
+       y1="249.55"
+       x2="609.96252"
+       y2="249.55"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_15"
+       id="linearGradient6878"
+       gradientUnits="userSpaceOnUse"
+       x1="312.29999"
+       y1="133.41251"
+       x2="312.29999"
+       y2="111.8875"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Gradient_16"
+       id="linearGradient6888"
+       gradientUnits="userSpaceOnUse"
+       x1="401.33749"
+       y1="112.1"
+       x2="222.7625"
+       y2="112.1"
+       spreadMethod="pad" />
   </defs>
   <g
-     transform="matrix(1.9882832,0,0,1.9583852,-457.66011,-58.293139)"
-     id="g1050"
-     clip-path="url(#clipPath7260)">
+     id="g595"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
     <g
-       id="g532">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer22_0_FILL"
-         id="use530"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g536">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer21_0_FILL"
-         id="use534"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g540">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer20_0_FILL"
-         id="use538"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g544">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer19_0_FILL"
-         id="use542"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g548">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer18_0_MEMBER_0_FILL"
-         id="use546"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g552">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer18_0_MEMBER_1_FILL"
-         id="use550"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g556">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer18_0_MEMBER_2_FILL"
-         id="use554"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g560">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer18_0_MEMBER_3_FILL"
-         id="use558"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g564">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer18_0_MEMBER_4_MEMBER_0_FILL"
-         id="use562"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g568">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer18_0_MEMBER_4_MEMBER_1_MEMBER_0_FILL"
-         id="use566"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g572">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer18_0_MEMBER_4_MEMBER_1_MEMBER_1_FILL"
-         id="use570"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g576">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer18_0_MEMBER_4_MEMBER_1_MEMBER_2_FILL"
-         id="use574"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g580">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer18_0_MEMBER_4_MEMBER_2_MEMBER_0_FILL"
-         id="use578"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g584">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer18_0_MEMBER_4_MEMBER_2_MEMBER_1_FILL"
-         id="use582"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g588">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer18_0_MEMBER_4_MEMBER_2_MEMBER_2_FILL"
-         id="use586"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g592">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer18_0_MEMBER_4_MEMBER_3_FILL"
-         id="use590"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(389.15,354)"
-       id="g598">
-      <g
-         id="g596">
-        <use
-           xlink:href="#flash0_ai_layer__Path__3_0_Layer0_0_FILL"
-           id="use594"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       id="g602">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer17_0_MEMBER_1_FILL"
-         id="use600"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(393.55,342.95)"
-       id="g608">
-      <g
-         id="g606">
-        <use
-           xlink:href="#flash0_ai_layer__Compound_Path__0_Layer0_0_FILL"
-           id="use604"
-           style="filter:url(#Filter_2)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(560.55,374.55)"
-       id="g614">
-      <g
-         id="g612">
-        <use
-           xlink:href="#flash0_ai_layer__Path__1_0_Layer0_0_FILL"
-           id="use610"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(569.6,362.75)"
-       id="g620">
-      <g
-         id="g618">
-        <use
-           xlink:href="#flash0_ai_layer__Path__0_Layer0_0_FILL"
-           id="use616"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       id="g624">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer16_0_FILL"
-         id="use622"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(268.1,347.5)"
-       id="g630">
-      <g
-         id="g628">
-        <use
-           xlink:href="#flash0_ai_layer__Path__5_0_Layer0_0_FILL"
-           id="use626"
-           style="filter:url(#Filter_3)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(430.45,251.1)"
-       id="g636">
-      <g
-         id="g634">
-        <use
-           xlink:href="#flash0_ai_layer__Path__0_0_Layer0_0_FILL"
-           id="use632"
-           style="filter:url(#Filter_4)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g640">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_0_MEMBER_0_FILL"
-         id="use638"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(661.9,205.9)"
-       id="g646">
-      <g
-         id="g644">
-        <use
-           xlink:href="#flash0_ai_layer__Path__1_0_0_Layer0_0_FILL"
-           id="use642"
-           style="filter:url(#Filter_5)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(659.35,205.3)"
-       id="g652">
-      <g
-         id="g650">
-        <use
-           xlink:href="#flash0_ai_layer__Path__2_0_Layer0_0_FILL"
-           id="use648"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g656">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_0_MEMBER_3_MEMBER_0_FILL"
-         id="use654"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g660">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_0_MEMBER_3_MEMBER_1_FILL"
-         id="use658"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g664">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_0_MEMBER_3_MEMBER_2_FILL"
-         id="use662"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g668">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_0_MEMBER_3_MEMBER_3_FILL"
-         id="use666"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g672">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_0_MEMBER_3_MEMBER_4_FILL"
-         id="use670"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(644,246.05)"
-       id="g678">
-      <g
-         id="g676">
-        <use
-           xlink:href="#flash0_ai_layer__Path__1_1_0_Layer0_0_FILL"
-           id="use674"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(643.85,247.75)"
-       id="g684">
-      <g
-         id="g682">
-        <use
-           xlink:href="#flash0_ai_layer__Path__4_0_Layer0_0_FILL"
-           id="use680"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g688">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_0_MEMBER_4_MEMBER_0_FILL"
-         id="use686"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(660.6,208.45)"
-       id="g694">
-      <g
-         id="g692">
-        <use
-           xlink:href="#flash0_ai_layer__Compound_Path__1_0_Layer0_0_FILL"
-           id="use690"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(658.25,207.9)"
-       id="g700">
-      <g
-         id="g698">
-        <use
-           xlink:href="#flash0_ai_layer__Compound_Path__0_0_Layer0_0_FILL"
-           id="use696"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g704">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_1_MEMBER_0_FILL"
-         id="use702"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(652.3,203.75)"
-       id="g710">
-      <g
-         id="g708">
-        <use
-           xlink:href="#flash0_ai_layer__Path__1_2_0_Layer0_0_FILL"
-           id="use706"
-           style="filter:url(#Filter_5)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(650,203.7)"
-       id="g716">
-      <g
-         id="g714">
-        <use
-           xlink:href="#flash0_ai_layer__Path__6_0_Layer0_0_FILL"
-           id="use712"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g720">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_1_MEMBER_3_MEMBER_0_FILL"
-         id="use718"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g724">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_1_MEMBER_3_MEMBER_1_FILL"
-         id="use722"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g728">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_1_MEMBER_3_MEMBER_2_FILL"
-         id="use726"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g732">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_1_MEMBER_3_MEMBER_3_FILL"
-         id="use730"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g736">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_1_MEMBER_3_MEMBER_4_FILL"
-         id="use734"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(646.9,245.55)"
-       id="g742">
-      <g
-         id="g740">
-        <use
-           xlink:href="#flash0_ai_layer__Path__1_3_0_Layer0_0_FILL"
-           id="use738"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(646.45,247.85)"
-       id="g748">
-      <g
-         id="g746">
-        <use
-           xlink:href="#flash0_ai_layer__Path__7_0_Layer0_0_FILL"
-           id="use744"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g752">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_1_MEMBER_4_MEMBER_0_FILL"
-         id="use750"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(652.05,206.35)"
-       id="g758">
-      <g
-         id="g756">
-        <use
-           xlink:href="#flash0_ai_layer__Compound_Path__1_0_0_Layer0_0_FILL"
-           id="use754"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(649.7,206.35)"
-       id="g764">
-      <g
-         id="g762">
-        <use
-           xlink:href="#flash0_ai_layer__Compound_Path__2_0_Layer0_0_FILL"
-           id="use760"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g768">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_2_MEMBER_0_FILL"
-         id="use766"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(651.6,247.1)"
-       id="g774">
-      <g
-         id="g772">
-        <use
-           xlink:href="#flash0_ai_layer__Path__1_4_0_Layer0_0_FILL"
-           id="use770"
-           style="filter:url(#Filter_5)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(649.05,248.25)"
-       id="g780">
-      <g
-         id="g778">
-        <use
-           xlink:href="#flash0_ai_layer__Path__8_0_Layer0_0_FILL"
-           id="use776"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g784">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_2_MEMBER_3_MEMBER_0_FILL"
-         id="use782"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g788">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_2_MEMBER_3_MEMBER_1_FILL"
-         id="use786"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g792">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_2_MEMBER_3_MEMBER_2_FILL"
-         id="use790"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g796">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_2_MEMBER_3_MEMBER_3_FILL"
-         id="use794"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g800">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_2_MEMBER_3_MEMBER_4_FILL"
-         id="use798"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(637.85,205.2)"
-       id="g806">
-      <g
-         id="g804">
-        <use
-           xlink:href="#flash0_ai_layer__Path__1_5_0_Layer0_0_FILL"
-           id="use802"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(637.65,205.15)"
-       id="g812">
-      <g
-         id="g810">
-        <use
-           xlink:href="#flash0_ai_layer__Path__9_0_Layer0_0_FILL"
-           id="use808"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g816">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_2_MEMBER_4_MEMBER_0_FILL"
-         id="use814"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(650.6,244.05)"
-       id="g822">
-      <g
-         id="g820">
-        <use
-           xlink:href="#flash0_ai_layer__Compound_Path__1_1_0_Layer0_0_FILL"
-           id="use818"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(648.25,245)"
-       id="g828">
-      <g
-         id="g826">
-        <use
-           xlink:href="#flash0_ai_layer__Compound_Path__3_0_Layer0_0_FILL"
-           id="use824"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(213.4,0.5)"
-       id="g832">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer11_0_MEMBER_3_FILL"
-         id="use830"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(643.05,222.1)"
-       id="g838">
-      <g
-         id="g836">
-        <use
-           xlink:href="#flash0_ai_layer__Path__1_6_0_Layer0_0_FILL"
-           id="use834"
-           style="filter:url(#Filter_6)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(639.95,222.85)"
-       id="g844">
-      <g
-         id="g842">
-        <use
-           xlink:href="#flash0_ai_layer__Path__10_0_Layer0_0_FILL"
-           id="use840"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       id="g848">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_0_FILL"
-         id="use846"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g852">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_1_FILL"
-         id="use850"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g856">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_2_FILL"
-         id="use854"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g860">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_3_FILL"
-         id="use858"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g864">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_4_FILL"
-         id="use862"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(448.05,269.95)"
-       id="g870">
-      <g
-         id="g868">
-        <use
-           xlink:href="#flash0_ai_layer__Path__2_0_0_Layer0_0_FILL"
-           id="use866"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       id="g874">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_5_MEMBER_1_FILL"
-         id="use872"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g878">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_5_MEMBER_2_FILL"
-         id="use876"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(431.65,268.55)"
-       id="g884">
-      <g
-         id="g882">
-        <use
-           xlink:href="#flash0_ai_layer__Path__11_0"
-           id="use880"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(490.6,272.3)"
-       id="g890">
-      <g
-         id="g888">
-        <use
-           xlink:href="#flash0_ai_layer__Path__10_1"
-           id="use886"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       id="g894">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_8_FILL"
-         id="use892"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g898">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_9_FILL"
-         id="use896"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(423,257.1)"
-       id="g904">
-      <g
-         id="g902">
-        <use
-           xlink:href="#flash0_ai_layer__Path__8_0_0_Layer0_0_FILL"
-           id="use900"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(603.3,257.8)"
-       id="g910">
-      <g
-         id="g908">
-        <use
-           xlink:href="#flash0_ai_layer__Path__7_0_0_Layer0_0_FILL"
-           id="use906"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(649.9,257.95)"
-       id="g916">
-      <g
-         id="g914">
-        <use
-           xlink:href="#flash0_ai_layer__Path__6_0_0_Layer0_0_FILL"
-           id="use912"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       id="g920">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_13_FILL"
-         id="use918"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(419.3,252.3)"
-       id="g926">
-      <g
-         id="g924">
-        <use
-           xlink:href="#flash0_ai_layer__Path__4_0_0_Layer0_0_FILL"
-           id="use922"
-           style="filter:url(#Filter_4)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(515.65,252.3)"
-       id="g932">
-      <g
-         id="g930">
-        <use
-           xlink:href="#flash0_ai_layer__Path__3_0_0_Layer0_0_FILL"
-           id="use928"
-           style="filter:url(#Filter_4)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(449.6,299.25)"
-       id="g938">
-      <g
-         id="g936">
-        <use
-           xlink:href="#flash0_ai_layer__Path__2_1_0_Layer0_0_FILL"
-           id="use934"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       id="g942">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_16_MEMBER_1_FILL"
-         id="use940"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g946">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_16_MEMBER_2_FILL"
-         id="use944"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(450.75,324.65)"
-       id="g952">
-      <g
-         id="g950">
-        <use
-           xlink:href="#flash0_ai_layer__Path__2_2_0_Layer0_0_FILL"
-           id="use948"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       id="g956">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_17_MEMBER_1_FILL"
-         id="use954"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       id="g960">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer10_0_MEMBER_17_MEMBER_2_FILL"
-         id="use958"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(447.05,271.8)"
-       id="g966">
-      <g
-         id="g964">
-        <use
-           xlink:href="#flash0_ai_layer__Path__2_3_0_Layer0_0_FILL"
-           id="use962"
-           style="filter:url(#Filter_5)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(448.05,297.4)"
-       id="g972">
-      <g
-         id="g970">
-        <use
-           xlink:href="#flash0_ai_layer__Path__1_7_0_Layer0_0_FILL"
-           id="use968"
-           style="filter:url(#Filter_5)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(447.6,322.95)"
-       id="g978">
-      <g
-         id="g976">
-        <use
-           xlink:href="#flash0_ai_layer__Path__12_0_Layer0_0_FILL"
-           id="use974"
-           style="filter:url(#Filter_5)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       id="g982">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer9_0_FILL"
-         id="use980"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(633.7,172.9)"
-       id="g988">
-      <g
-         id="g986">
-        <use
-           xlink:href="#flash0_ai_layer__Path__1_8_0_Layer0_0_FILL"
-           id="use984"
-           style="filter:url(#Filter_7)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(169.65,-1.5)"
-       id="g992">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer8_0_MEMBER_1_FILL"
-         id="use990"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(617.95,163.25)"
-       id="g998">
-      <g
-         id="g996">
-        <use
-           xlink:href="#flash0_ai_layer__Path__1_9_0_Layer0_0_FILL"
-           id="use994"
-           style="filter:url(#Filter_7)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(169.65,-1.5)"
-       id="g1002">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer7_0_MEMBER_1_FILL"
-         id="use1000"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(624.3,155.15)"
-       id="g1008">
-      <g
-         id="g1006">
-        <use
-           xlink:href="#flash0_ai_layer__Path__3_1_0_Layer0_0_FILL"
-           id="use1004"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(640.9,165.95)"
-       id="g1014">
-      <g
-         id="g1012">
-        <use
-           xlink:href="#flash0_ai_layer__Path__2_4_0_Layer0_0_FILL"
-           id="use1010"
-           style="filter:url(#Filter_1)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(-58.7,71.4)"
-       id="g1018">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer4_0_MEMBER_0_FILL"
-         id="use1016"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(-58.7,71.4)"
-       id="g1022">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer4_0_MEMBER_1_FILL"
-         id="use1020"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(-58.7,71.4)"
-       id="g1026">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer4_0_MEMBER_2_FILL"
-         id="use1024"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(-58.7,71.4)"
-       id="g1030">
-      <use
-         xlink:href="#flash0_ai_layer__Clip_Group__0_Layer4_0_MEMBER_3_FILL"
-         id="use1028"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(633.55,111.55)"
-       id="g1036">
-      <g
-         id="g1034">
-        <use
-           xlink:href="#flash0_ai_layer__Path__13_0_Layer0_0_FILL"
-           id="use1032"
-           style="filter:url(#Filter_4)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(217.4,9)"
-       id="g1042">
-      <g
-         id="g1040">
-        <use
-           xlink:href="#flash0_ai_layer__Path__1_10_0_Layer0_0_FILL"
-           id="use1038"
-           style="filter:url(#Filter_4)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-    <g
-       transform="translate(720.05,345.45)"
-       id="g1048">
-      <g
-         id="g1046">
-        <use
-           xlink:href="#flash0_ai_layer__Path__14_0_Layer0_0_FILL"
-           id="use1044"
-           style="filter:url(#Filter_4)"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
-      </g>
-    </g>
-  </g>
-  <g
-     transform="matrix(1.777771,0,0,1,242.16805,147.421)"
-     id="g1060">
-    <g
-       transform="translate(-351.25,-128.75)"
-       id="g1054">
-      <use
-         xlink:href="#Symbol_4_0_Layer0_0_FILL"
-         id="use1052"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-    <g
-       transform="translate(-351.25,-128.75)"
-       id="g1058">
-      <use
-         xlink:href="#Symbol_4_0_Layer0_1_FILL"
-         id="use1056"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-    </g>
-  </g>
-  <g
-     transform="translate(153.25,173)"
-     id="g1147">
-    <g
-       id="use1145">
+       id="use593">
       <path
-         style="fill:url(#linearGradient1991);stroke:none"
+         d="M 880.05,336.55 V 3.35 H 223.7 v 333.2 z"
+         id="path6562"
          inkscape:connector-curvature="0"
-         id="path1987"
+         style="fill:#c4b24b;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g599"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use597">
+      <path
+         d="m 277.95,8.7 h -2.45 l 0.7,321.95 h 1.05 L 277.95,8.7 m -27.65,0 h -2.45 l 0.7,321.95 h 1.05 L 250.3,8.7 m 55.25,0 h -2.45 l 0.65,321.95 h 1.1 L 305.55,8.7 m 55.25,0 h -2.45 l 0.7,321.95 h 1.05 L 360.8,8.7 m -27.65,0 h -2.45 l 0.7,321.95 h 1.1 L 333.15,8.7 m 55.3,0 H 386 l 0.7,321.95 h 1.05 L 388.45,8.7 m 55.25,0 h -2.45 l 0.7,321.95 h 1.1 L 443.7,8.7 m -27.6,0 h -2.45 l 0.65,321.95 h 1.1 L 416.1,8.7 m 55.25,0 h -2.45 l 0.7,321.95 h 1.05 L 471.35,8.7 m 55.3,0 h -2.45 l 0.65,321.95 h 1.1 L 526.65,8.7 M 499,8.7 h -2.45 l 0.7,321.95 h 1.05 L 499,8.7 m 55.25,0 h -2.45 l 0.7,321.95 h 1.1 L 554.25,8.7 m 55.3,0 h -2.45 l 0.7,321.95 h 1.05 L 609.55,8.7 m -27.65,0 h -2.45 l 0.7,321.95 h 1.05 L 581.9,8.7 m 55.3,0 h -2.45 l 0.65,321.95 h 1.1 L 637.2,8.7 m 27.6,0 h -2.45 l 0.7,321.95 h 1.1 L 664.8,8.7 m 55.3,0 h -2.45 l 0.7,321.95 h 1.05 L 720.1,8.7 m -27.65,0 H 690 l 0.7,321.95 h 1.05 L 692.45,8.7 m 55.3,0 h -2.45 l 0.65,321.95 h 1.1 z"
+         id="path6566"
+         inkscape:connector-curvature="0"
+         style="fill:#d1bd50;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g603"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use601">
+      <path
+         d="m 747.95,8.7 h -2.45 l 0.7,321.95 h 1.05 L 747.95,8.7 m 55.3,0 h -2.45 l 0.7,321.95 h 1.05 L 803.25,8.7 m -27.65,0 h -2.45 l 0.7,321.95 h 1.05 L 775.6,8.7 m 55.3,0 h -2.5 l 0.7,321.95 h 1.1 L 830.9,8.7 m 55.25,0 h -2.45 l 0.7,321.95 h 1.05 L 886.15,8.7 m -27.65,0 h -2.45 l 0.7,321.95 h 1.05 z"
+         id="path6570"
+         inkscape:connector-curvature="0"
+         style="fill:#d1bd50;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g607"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use605">
+      <path
+         d="M 880.05,421.3 V 330.65 H 223.7 v 90.65 z"
+         id="path6574"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6578);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1042"
+     transform="matrix(2.0527132,0,0,3.3543122,-35.015407,-51.381812)">
+    <g
+       id="g1040">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_4)"
+         id="use1038"
+         xlink:href="#flash0_ai_layer__Path__1_10_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g611"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use609">
+      <path
+         d="M 405.75,244.05 412.6,58.15 H 290.35 l 6.8,185.9 z"
+         id="path6580"
+         inkscape:connector-curvature="0"
+         style="fill:#ffde9f;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g619"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use617">
+      <path
+         d="m 409,251.8 1.05,-7.75 H 289.1 l 1.05,7.75 z"
+         id="path6588"
+         inkscape:connector-curvature="0"
+         style="fill:#ffde9f;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g623"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use621">
+      <path
+         d="m 401.15,182.4 0.25,-6.9 -100,-1.8 0.35,8.7 z"
+         id="path6592"
+         inkscape:connector-curvature="0"
+         style="fill:#ffde9f;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g627"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use625">
+      <path
+         d="m 408.75,68.5 0.75,-6.55 H 295 l 0.75,6.55 z"
+         id="path6596"
+         inkscape:connector-curvature="0"
+         style="fill:#ffd37c;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g631"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use629">
+      <path
+         d="m 299.75,69.75 -0.4,-9 h -6.4 l 1.3,9 z"
+         id="path6600"
+         inkscape:connector-curvature="0"
+         style="fill:#ffd37c;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g635"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use633">
+      <path
+         d="m 298.85,61.95 h -5.1 l 0.65,2.9 h 4.45 z"
+         id="path6604"
+         inkscape:connector-curvature="0"
+         style="fill:#ffe3ae;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g639"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use637">
+      <path
+         d="m 298.85,66.15 h -4.4 l 0.35,2.7 h 4.05 z"
+         id="path6608"
+         inkscape:connector-curvature="0"
+         style="fill:#f5c66c;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g643"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use641">
+      <path
+         d="m 409.2,69.75 1.3,-9 h -6.4 l -0.4,9 z"
+         id="path6612"
+         inkscape:connector-curvature="0"
+         style="fill:#ffd37c;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g647"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use645">
+      <path
+         d="m 409.05,64.85 0.65,-2.9 h -5.1 v 2.9 z"
+         id="path6616"
+         inkscape:connector-curvature="0"
+         style="fill:#ffe3ae;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g651"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use649">
+      <path
+         d="m 408.65,68.85 0.35,-2.7 h -4.4 v 2.7 z"
+         id="path6620"
+         inkscape:connector-curvature="0"
+         style="fill:#f5c66c;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g655"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use653">
+      <path
+         d="m 404.05,61.95 -0.85,3.3 H 300.5 l -1.1,-3.3 0.35,6.55 0.85,-1 101.75,-0.4 1.35,1.4 z"
+         id="path6624"
+         inkscape:connector-curvature="0"
+         style="fill:#f5c66c;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g661"
+     transform="matrix(2.0040588,0,0,2.0040588,326.95145,647.69615)">
+    <g
+       id="g659">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use657"
+         xlink:href="#flash0_ai_layer__Path__3_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g665"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use663">
+      <path
+         d="M 703.95,389.25 655.4,342.95 H 425.7 l -36.55,51.15 176.3,-2.7 4.7,-2.15 2.15,2.05 18.25,-0.3 3.55,-4 1.75,3.55 z"
+         id="path6628"
+         inkscape:connector-curvature="0"
+         style="fill:#c4b24b;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g671"
+     transform="matrix(2.0040588,0,0,2.0040588,335.75145,625.54615)">
+    <g
+       id="g669">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_2-93)"
+         id="use667"
+         xlink:href="#flash0_ai_layer__Compound_Path__0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g677"
+     transform="matrix(2.0040588,0,0,2.0040588,670.40145,688.89615)">
+    <g
+       id="g675">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use673"
+         xlink:href="#flash0_ai_layer__Path__1_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g683"
+     transform="matrix(2.0040588,0,0,2.0040588,688.55145,665.24615)">
+    <g
+       id="g681">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use679"
+         xlink:href="#flash0_ai_layer__Path__0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g687"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use685">
+      <path
+         d="m 880.05,330.65 v -5.2 h -671 v 5.2 z"
+         id="path6640"
+         inkscape:connector-curvature="0"
+         style="fill:#a3943e;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g693"
+     transform="matrix(2.0040588,0,0,2.0040588,84.35145,634.69615)">
+    <g
+       id="g691">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_3-27)"
+         id="use689"
+         xlink:href="#flash0_ai_layer__Path__5_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g699"
+     transform="matrix(2.0040588,0,0,2.0040588,409.70145,441.49615)">
+    <g
+       id="g697">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_4-2)"
+         id="use695"
+         xlink:href="#flash0_ai_layer__Path__0_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g703"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use701">
+      <path
+         d="m 445.65,207.7 4,1.4 1.25,-2.5 q 0.25,-0.6 -1.9,-1.55 -2.15,-0.95 -2.4,-0.4 z"
+         id="path6644"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6648);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g709"
+     transform="matrix(2.0040588,0,0,2.0040588,873.50145,350.89615)">
+    <g
+       id="g707">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_5-74)"
+         id="use705"
+         xlink:href="#flash0_ai_layer__Path__1_0_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g715"
+     transform="matrix(2.0040588,0,0,2.0040588,868.40145,349.69615)">
+    <g
+       id="g713">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use711"
+         xlink:href="#flash0_ai_layer__Path__2_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g719"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use717">
+      <path
+         d="m 446.8,207.7 -1.2,0.4 q -1.05,2.85 -7.6,18.25 -6.35,14.9 -7.8,18.1 0.4,3.45 0,5.4 1.6,-2.4 3.75,-3.9 1.15,-2.95 7.6,-18.3 6.35,-14.85 7.75,-18 l -0.5,-1.15 z"
+         id="path6650"
+         inkscape:connector-curvature="0"
+         style="fill:#fff3d9;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g723"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use721">
+      <path
+         d="m 449.3,209.65 -0.5,-1.15 -15.75,36.85 q 0.75,-0.3 0.9,0.6 1.7,-4.55 15.35,-36.3 z"
+         id="path6632"
+         inkscape:connector-curvature="0"
+         style="fill:#eb690c;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g727"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use725">
+      <path
+         d="m 448.8,208.5 -2,-0.8 -15.45,37.1 q 1.25,-0.45 1.7,0.55 z"
+         id="path6636"
+         inkscape:connector-curvature="0"
+         style="fill:#feaa0f;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g731"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use729">
+      <path
+         d="m 446.8,207.7 -1.2,0.4 q -1.15,2.95 -7.75,18.55 -6.05,14.2 -7.65,17.8 0.8,-0.85 1.15,0.35 z"
+         id="path6684"
+         inkscape:connector-curvature="0"
+         style="fill:#ffc34d;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g735"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use733">
+      <path
+         d="m 431.3,247.15 q -0.4,-0.15 -0.9,0.1 0,1.4 -0.2,2.6 0.9,-1.35 1.65,-2.1 -0.15,-0.45 -0.55,-0.6 z"
+         id="path6658"
+         inkscape:connector-curvature="0"
+         style="fill:#4f2d04;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g741"
+     transform="matrix(2.0040588,0,0,2.0040588,837.65145,431.34615)">
+    <g
+       id="g739">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use737"
+         xlink:href="#flash0_ai_layer__Path__1_1_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g747"
+     transform="matrix(2.0040588,0,0,2.0040588,837.35145,434.79615)">
+    <g
+       id="g745">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use743"
+         xlink:href="#flash0_ai_layer__Path__4_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g751"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use749">
+      <path
+         d="m 448.35,211.9 q 0.2,0.05 0.3,-0.15 0.1,-0.25 -0.05,-0.35 l 0.75,-1.65 q 0.2,0.1 0.35,-0.3 0.15,-0.35 -0.05,-0.45 0.25,-0.6 -1.65,-1.45 -1.95,-0.9 -2.2,-0.25 -0.25,-0.1 -0.4,0.3 -0.15,0.4 0.15,0.45 l -0.7,1.95 q -0.15,-0.05 -0.2,0.15 -0.1,0.25 0.05,0.3 0.1,-0.25 1.95,0.45 1.8,0.75 1.7,1 z"
+         id="path6706"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6710);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g757"
+     transform="matrix(2.0040588,0,0,2.0040588,870.90145,355.99615)">
+    <g
+       id="g755">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use753"
+         xlink:href="#flash0_ai_layer__Compound_Path__1_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g763"
+     transform="matrix(2.0040588,0,0,2.0040588,866.20145,354.89615)">
+    <g
+       id="g761">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use759"
+         xlink:href="#flash0_ai_layer__Compound_Path__0_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g767"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use765">
+      <path
+         d="m 436.45,206.3 4.1,0.25 0.5,-2.7 q 0.1,-0.6 -2.2,-0.9 -2.25,-0.35 -2.35,0.25 z"
+         id="path6696"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6700);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g773"
+     transform="matrix(2.0040588,0,0,2.0040588,854.25145,346.59615)">
+    <g
+       id="g771">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_5-74)"
+         id="use769"
+         xlink:href="#flash0_ai_layer__Path__1_2_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g779"
+     transform="matrix(2.0040588,0,0,2.0040588,849.65145,346.49615)">
+    <g
+       id="g777">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use775"
+         xlink:href="#flash0_ai_layer__Path__6_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g783"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use781">
+      <path
+         d="m 434.3,225.8 q -1.9,15.95 -2.4,19.1 1.3,3 1.45,5.05 0.9,-2.8 2.45,-4.65 0.25,-3.05 2.2,-19.2 1.9,-15.55 2.4,-18.95 l -0.8,-0.95 -2.1,-0.25 -1,0.75 q -0.25,3.15 -2.2,19.1 z"
+         id="path6688"
+         inkscape:connector-curvature="0"
+         style="fill:#fff3d9;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g787"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use785">
+      <path
+         d="m 435.8,245.3 q 0.25,-2.8 2.25,-19.1 1.75,-14.4 2.35,-19.05 l -0.8,-0.95 -4.75,38.75 q 0.55,-0.55 0.95,0.35 z"
+         id="path6662"
+         inkscape:connector-curvature="0"
+         style="fill:#eb690c;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g791"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use789">
+      <path
+         d="m 433.1,244.9 q 0.95,-0.75 1.75,0.05 l 4.75,-38.75 -2.1,-0.25 z"
+         id="path6654"
+         inkscape:connector-curvature="0"
+         style="fill:#feaa0f;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g795"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use793">
+      <path
+         d="m 433.1,244.9 4.4,-38.95 -1,0.75 q -0.25,3.05 -2.25,19.45 -1.75,14.2 -2.35,18.75 0.55,-1.05 1.2,0 z"
+         id="path6702"
+         inkscape:connector-curvature="0"
+         style="fill:#ffc34d;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g799"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use797">
+      <path
+         d="m 433.65,247.15 q -0.45,-0.05 -0.8,0.3 0.35,1.1 0.5,2.5 0.4,-1.25 1,-2.4 -0.3,-0.4 -0.7,-0.4 z"
+         id="path6692"
+         inkscape:connector-curvature="0"
+         style="fill:#4f2d04;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g805"
+     transform="matrix(2.0040588,0,0,2.0040588,843.45145,430.34615)">
+    <g
+       id="g803">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use801"
+         xlink:href="#flash0_ai_layer__Path__1_3_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g811"
+     transform="matrix(2.0040588,0,0,2.0040588,842.55145,434.99615)">
+    <g
+       id="g809">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use807"
+         xlink:href="#flash0_ai_layer__Path__7_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g815"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use813">
+      <path
+         d="m 436.5,205.85 q -0.3,0 -0.3,0.4 -0.05,0.4 0.25,0.4 l -0.1,2 q -0.2,0 -0.2,0.25 0,0.2 0.15,0.2 0.05,-0.25 1.95,-0.05 1.9,0.2 1.85,0.45 0.2,0.05 0.2,-0.25 0.05,-0.25 -0.1,-0.25 l 0.25,-1.8 q 0.2,0.05 0.25,-0.35 0.05,-0.35 -0.15,-0.4 0.1,-0.65 -1.95,-0.95 -2,-0.3 -2.1,0.35 z"
+         id="path6666"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6670);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g821"
+     transform="matrix(2.0040588,0,0,2.0040588,853.75145,351.79615)">
+    <g
+       id="g819">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use817"
+         xlink:href="#flash0_ai_layer__Compound_Path__1_0_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g827"
+     transform="matrix(2.0040588,0,0,2.0040588,849.05145,351.79615)">
+    <g
+       id="g825">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use823"
+         xlink:href="#flash0_ai_layer__Compound_Path__2_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g831"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use829">
+      <path
+         d="m 439.5,246.3 -4.1,1 0.6,3.1 q 0.25,0.6 2.45,-0.15 2.25,-0.75 2.05,-1.35 z"
+         id="path6712"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6716);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g837"
+     transform="matrix(2.0040588,0,0,2.0040588,852.85145,433.49615)">
+    <g
+       id="g835">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_5-74)"
+         id="use833"
+         xlink:href="#flash0_ai_layer__Path__1_4_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g843"
+     transform="matrix(2.0040588,0,0,2.0040588,847.75145,435.79615)">
+    <g
+       id="g841">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use839"
+         xlink:href="#flash0_ai_layer__Path__8_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g847"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use845">
+      <path
+         d="m 424.1,203.85 q 0.25,2.05 -0.5,5.35 1.15,3.3 6,18.8 4.95,15.9 5.75,18.85 l 1.15,0.55 2.05,-0.6 0.65,-1.1 q -1.2,-3.55 -5.9,-18.7 -5,-15.95 -5.8,-18.95 -1.85,-1.5 -3.4,-4.2 z"
+         id="path6672"
+         inkscape:connector-curvature="0"
+         style="fill:#fff3d9;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g851"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use849">
+      <path
+         d="m 439.2,245.7 q -10.55,-33.35 -11.7,-37.65 -0.3,0.95 -0.95,0.5 l 12,38.25 z"
+         id="path6676"
+         inkscape:connector-curvature="0"
+         style="fill:#eb690c;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g855"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use853">
+      <path
+         d="m 426.55,208.55 q -0.65,1.05 -1.75,0.4 l 11.7,38.45 2.05,-0.6 z"
+         id="path6680"
+         inkscape:connector-curvature="0"
+         style="fill:#feaa0f;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g859"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use857">
+      <path
+         d="m 436.5,247.4 -11.7,-38.45 q -0.5,1.15 -1.2,0.25 1.3,3.9 5.9,18.45 5.05,16.15 5.85,19.2 z"
+         id="path6772"
+         inkscape:connector-curvature="0"
+         style="fill:#ffc34d;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g863"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use861">
+      <path
+         d="m 424.1,203.85 q 0.15,1.25 0,2.6 0.45,0.3 0.85,0.15 0.4,-0.15 0.6,-0.55 -0.55,-0.7 -1.45,-2.2 z"
+         id="path6758"
+         inkscape:connector-curvature="0"
+         style="fill:#4f2d04;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g869"
+     transform="matrix(2.0040588,0,0,2.0040588,825.30145,349.49615)">
+    <g
+       id="g867">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use865"
+         xlink:href="#flash0_ai_layer__Path__1_5_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g875"
+     transform="matrix(2.0040588,0,0,2.0040588,824.90145,349.39615)">
+    <g
+       id="g873">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use871"
+         xlink:href="#flash0_ai_layer__Path__9_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g879"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use877">
+      <path
+         d="m 435.3,246.9 q -0.3,0.1 -0.2,0.5 0.1,0.4 0.4,0.3 0.25,0.65 2.2,-0.05 2,-0.65 1.8,-1.3 0.2,-0.05 0.05,-0.4 -0.1,-0.4 -0.3,-0.35 l -0.6,-1.75 q 0.2,-0.05 0.1,-0.3 -0.1,-0.25 -0.25,-0.2 0.1,0.25 -1.8,0.8 -1.9,0.55 -2,0.3 -0.15,0.05 -0.1,0.3 0.05,0.25 0.2,0.2 z"
+         id="path6722"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6726);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g885"
+     transform="matrix(2.0040588,0,0,2.0040588,850.85145,427.34615)">
+    <g
+       id="g883">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use881"
+         xlink:href="#flash0_ai_layer__Compound_Path__1_1_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g891"
+     transform="matrix(2.0040588,0,0,2.0040588,846.15145,429.24615)">
+    <g
+       id="g889">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use887"
+         xlink:href="#flash0_ai_layer__Compound_Path__3_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g895"
+     transform="matrix(2.0040588,0,0,2.0040588,-25.24855,-60.70385)">
+    <g
+       id="use893">
+      <path
+         d="m 449.05,220 -23.2,1.4 3.25,29.85 h 16.5 z"
+         id="path6742"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6746);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g901"
+     transform="matrix(2.0040588,0,0,2.0040588,835.75145,383.39615)">
+    <g
+       id="g899">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_6-5)"
+         id="use897"
+         xlink:href="#flash0_ai_layer__Path__1_6_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g907"
+     transform="matrix(2.0040588,0,0,2.0040588,829.50145,384.89615)">
+    <g
+       id="g905">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use903"
+         xlink:href="#flash0_ai_layer__Path__10_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g911"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use909">
+      <path
+         d="m 603.3,257.8 h -9.95 l 5.05,88.6 8.2,10.35 z"
+         id="path6728"
+         inkscape:connector-curvature="0"
+         style="fill:#6e2020;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g915"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use913">
+      <path
+         d="m 634.7,327.45 h -25.5 v 11.75 l 24.55,3.75 v 4.9 l 11.3,8.9 5.5,-98.8 -14.7,-0.05 z"
+         id="path6748"
+         inkscape:connector-curvature="0"
+         style="fill:#6e2020;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g919"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use917">
+      <path
+         d="m 518.4,257.45 h -10.1 l -10.9,99.3 10.9,-10.95 z"
+         id="path6776"
+         inkscape:connector-curvature="0"
+         style="fill:#6e2020;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g923"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use921">
+      <path
+         d="m 441.75,353.35 -1.2,3.4 10.35,-3.4 z"
+         id="path6780"
+         inkscape:connector-curvature="0"
+         style="fill:#6e2020;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g927"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use925">
+      <path
+         d="m 440.55,356.75 1.2,-3.4 h 45.2 l 1.7,3.4 h 8.75 l 10.9,-99.3 -85.3,-0.35 8.8,99.65 z"
+         id="path6752"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6756);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g933"
+     transform="matrix(2.0040588,0,0,2.0040588,445.00145,479.24615)">
+    <g
+       id="g931">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use929"
+         xlink:href="#flash0_ai_layer__Path__2_0_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g937"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use935">
+      <path
+         d="m 478.7,271.8 0.25,-3.95 h -31.9 l 0.4,3.5 z"
+         id="path6738"
+         inkscape:connector-curvature="0"
+         style="fill:#8ba1a1;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g941"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use939">
+      <path
+         d="m 447.15,268.55 0.15,1.55 31.45,0.45 0.2,-1.85 z"
+         id="path6768"
+         inkscape:connector-curvature="0"
+         style="fill:#cce3da;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g947"
+     transform="matrix(2.0040588,0,0,2.0040588,412.15145,476.44615)">
+    <g
+       id="g945">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         id="use943"
+         xlink:href="#flash0_ai_layer__Path__11_0" />
+    </g>
+  </g>
+  <g
+     id="g953"
+     transform="matrix(2.0040588,0,0,2.0040588,530.25145,483.99615)">
+    <g
+       id="g951">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         id="use949"
+         xlink:href="#flash0_ai_layer__Path__10_1" />
+    </g>
+  </g>
+  <g
+     id="g957"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use955">
+      <path
+         d="m 435.05,342.6 v 0.35 h 59.5 l 9.55,-82.05 h -0.85 q -37.95,-0.05 -75.95,0.15 3.55,39.35 7.75,81.55 m -3.5,-48.95 -2.85,-31.25 q 36.85,0.25 73.75,0.15 l -3.4,31.3 -67.5,-0.2 m 4.25,48.45 -1.8,-20.9 62.2,-0.7 -2.35,21.6 H 435.8 m -1.85,-21.45 -2.3,-25.75 67.3,-0.15 -2.65,24.9 z"
+         id="path6718"
+         inkscape:connector-curvature="0"
+         style="fill:#7e3030;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g961"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use959">
+      <path
+         d="m 656.75,258 -6.2,-0.05 -4.5,81.25 H 609.2 v -81.4 h -5.9 l 3.3,98.95 h 2.6 v -13.8 h 36.65 l -0.8,13.8 h 2.7 z"
+         id="path6732"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6736);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g967"
+     transform="matrix(2.0040588,0,0,2.0040588,394.80145,453.49615)">
+    <g
+       id="g965">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use963"
+         xlink:href="#flash0_ai_layer__Path__8_0_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g973"
+     transform="matrix(2.0040588,0,0,2.0040588,756.05145,454.89615)">
+    <g
+       id="g971">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use969"
+         xlink:href="#flash0_ai_layer__Path__7_0_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g979"
+     transform="matrix(2.0040588,0,0,2.0040588,849.45145,455.19615)">
+    <g
+       id="g977">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use975"
+         xlink:href="#flash0_ai_layer__Path__6_0_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g983"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use981">
+      <path
+         d="m 665.75,258.35 1.45,-7.25 H 417.05 l 1.25,5.95 z"
+         id="path6762"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6766);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g989"
+     transform="matrix(2.0040588,0,0,2.0040588,387.40145,443.89615)">
+    <g
+       id="g987">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_4-2)"
+         id="use985"
+         xlink:href="#flash0_ai_layer__Path__4_0_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g995"
+     transform="matrix(2.0040588,0,0,2.0040588,580.45145,443.89615)">
+    <g
+       id="g993">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_4-2)"
+         id="use991"
+         xlink:href="#flash0_ai_layer__Path__3_0_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g1001"
+     transform="matrix(2.0040588,0,0,2.0040588,448.10145,537.99615)">
+    <g
+       id="g999">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use997"
+         xlink:href="#flash0_ai_layer__Path__2_1_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g1005"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use1003">
+      <path
+         d="m 477.05,300.9 0.25,-3.5 h -28.6 l 0.35,3.1 z"
+         id="path6794"
+         inkscape:connector-curvature="0"
+         style="fill:#8ba1a1;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1009"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use1007">
+      <path
+         d="m 448.8,298 0.15,1.35 28.2,0.45 0.15,-1.7 z"
+         id="path6846"
+         inkscape:connector-curvature="0"
+         style="fill:#cce3da;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1015"
+     transform="matrix(2.0040588,0,0,2.0040588,450.40145,588.89615)">
+    <g
+       id="g1013">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use1011"
+         xlink:href="#flash0_ai_layer__Path__2_2_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g1019"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use1017">
+      <path
+         d="m 475.85,326.15 0.2,-3.2 h -26.1 l 0.3,2.85 z"
+         id="path6808"
+         inkscape:connector-curvature="0"
+         style="fill:#8ba1a1;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1023"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use1021">
+      <path
+         d="m 450,323.5 0.15,1.25 25.75,0.4 0.15,-1.55 z"
+         id="path6820"
+         inkscape:connector-curvature="0"
+         style="fill:#cce3da;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1029"
+     transform="matrix(2.0040588,0,0,2.0040588,443.00145,482.99615)">
+    <g
+       id="g1027">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_5-74)"
+         id="use1025"
+         xlink:href="#flash0_ai_layer__Path__2_3_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g1035"
+     transform="matrix(2.0040588,0,0,2.0040588,445.00145,534.29615)">
+    <g
+       id="g1033">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_5-74)"
+         id="use1031"
+         xlink:href="#flash0_ai_layer__Path__1_7_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g1041"
+     transform="matrix(2.0040588,0,0,2.0040588,444.10145,585.49615)">
+    <g
+       id="g1039">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_5-74)"
+         id="use1037"
+         xlink:href="#flash0_ai_layer__Path__12_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g1045"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use1043">
+      <path
+         d="m 609.95,251.25 -2.05,-3.4 H 507 l -2.1,3.4 z"
+         id="path6824"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6828);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1051"
+     transform="matrix(2.0040588,0,0,2.0040588,817.00145,284.79615)">
+    <g
+       id="g1049">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_7-7)"
+         id="use1047"
+         xlink:href="#flash0_ai_layer__Path__1_8_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g1055"
+     transform="matrix(2.0040588,0,0,2.0040588,-112.94855,-64.75385)">
+    <g
+       id="use1053">
+      <path
+         d="m 462.4,198.85 21.45,0.4 Q 486.3,187 487,171.75 l -26.05,-0.35 q 2.1,16.8 1.45,27.45 z"
+         id="path6802"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6806);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1061"
+     transform="matrix(2.0040588,0,0,2.0040588,785.45145,265.44615)">
+    <g
+       id="g1059">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_7-7)"
+         id="use1057"
+         xlink:href="#flash0_ai_layer__Path__1_9_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g1065"
+     transform="matrix(2.0040588,0,0,2.0040588,-112.94855,-64.75385)">
+    <g
+       id="use1063">
+      <path
+         d="m 446.75,187.8 20.25,0.4 q 2.2,-10.95 3,-26 l -24.6,-0.3 q 2,15.75 1.35,25.9 z"
+         id="path6788"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient6792);stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1071"
+     transform="matrix(2.0040588,0,0,2.0040588,798.15145,249.19615)">
+    <g
+       id="g1069">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use1067"
+         xlink:href="#flash0_ai_layer__Path__3_1_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g1077"
+     transform="matrix(2.0040588,0,0,2.0040588,831.45145,270.84615)">
+    <g
+       id="g1075">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_1-1)"
+         id="use1073"
+         xlink:href="#flash0_ai_layer__Path__2_4_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g1081"
+     transform="matrix(2.0040588,0,0,2.0040588,-570.54855,81.34615)">
+    <g
+       id="use1079">
+      <path
+         d="m 734.65,79.75 q 8.55,-9.45 8.55,-21.05 0,-11 -8.55,-17.85 -8.05,-6.5 -19.9,-6.5 -11.35,0 -19.45,8.45 -8.05,8.4 -8.05,19.85 0,11.3 8.05,19.05 7.95,7.65 19.45,7.65 11.2,0 19.9,-9.6 z"
+         id="path6812"
+         inkscape:connector-curvature="0"
+         style="fill:#385270;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1085"
+     transform="matrix(2.0040588,0,0,2.0040588,-570.54855,81.34615)">
+    <g
+       id="use1083">
+      <path
+         d="m 730.9,78.15 q 7.3,-8.2 7.3,-18.15 0,-9.55 -7.5,-15.05 -6.55,-4.8 -15.95,-4.8 -9.15,0 -15.8,7.1 -6.7,7.1 -6.7,16.8 0,9.4 6.5,15.85 6.5,6.45 16,6.45 8.85,0 16.15,-8.2 z"
+         id="path6830"
+         inkscape:connector-curvature="0"
+         style="fill:#fff7cc;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1089"
+     transform="matrix(2.0040588,0,0,2.0040588,-570.54855,81.34615)">
+    <g
+       id="use1087">
+      <path
+         d="m 713.8,50.3 q 0.1,4.1 0.35,7.45 0.4,4.9 0.75,7.35 0.6,4.45 1.35,7.35 0.3,-3.5 0.2,-7.45 0,-2.5 -0.3,-7.4 -0.6,-6 -0.8,-7.4 -0.6,-4.3 -1.3,-7.35 -0.35,3.35 -0.25,7.45 z"
+         id="path6816"
+         inkscape:connector-curvature="0"
+         style="fill:#385270;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1093"
+     transform="matrix(2.0040588,0,0,2.0040588,-570.54855,81.34615)">
+    <g
+       id="use1091">
+      <path
+         d="m 701.6,69.5 q 2.05,0.05 4.9,-0.3 2.7,-0.35 4.8,-0.8 1.6,-0.3 4.7,-1.2 2.8,-0.9 4.6,-1.8 -2.35,-0.05 -4.9,0.25 -2.65,0.35 -4.8,0.8 -2.55,0.55 -4.7,1.25 -2.8,0.9 -4.6,1.8 z"
+         id="path6798"
+         inkscape:connector-curvature="0"
+         style="fill:#385270;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1099"
+     transform="matrix(2.0040588,0,0,2.0040588,816.70145,161.84615)">
+    <g
+       id="g1097">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_4-2)"
+         id="use1095"
+         xlink:href="#flash0_ai_layer__Path__13_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g1105"
+     transform="matrix(2.0040588,0,0,2.0040588,990.05145,630.59615)">
+    <g
+       id="g1103">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="filter:url(#Filter_4-2)"
+         id="use1101"
+         xlink:href="#flash0_ai_layer__Path__14_0_Layer0_0_FILL" />
+    </g>
+  </g>
+  <g
+     id="g615"
+     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+    <g
+       id="use613">
+      <path
+         d="M 399.1,237.35 405.4,72.2 H 297.55 l 6.2,165.15 z"
+         id="path6584"
+         inkscape:connector-curvature="0"
+         style="fill:#fff9d8;stroke:none" />
+    </g>
+  </g>
+  <circle
+     style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.46143782;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:5.84575135, 1.46143784;stroke-dashoffset:0;stroke-opacity:1"
+     id="path8236"
+     cx="220.89584"
+     cy="193.83839"
+     r="65.961945" />
+  <g
+     id="g1109"
+     transform="matrix(1.9368896,0,0,1.9368896,-429.04855,-61.50385)">
+    <g
+       id="use1107">
+      <path
+         d="m 407.5,100.25 -1,-3.3 H 297.55 l -2.55,2.45 112.5,0.85 m 0,3.7 -1,-3.3 H 297.55 l -2.55,2.4 112.5,0.9 m 0,3.65 -1,-3.3 H 297.55 l -2.55,2.45 112.5,0.85 m 0,3.7 -1,-3.3 H 297.55 l -2.55,2.45 112.5,0.85 m 0,3.65 -1,-3.25 H 297.55 l -2.55,2.4 112.5,0.85 m 0,3.7 -1,-3.3 H 297.55 l -2.55,2.45 112.5,0.85 m 0,-44.15 -1,-3.3 H 297.55 L 295,73.65 407.5,74.5 m 0,3.7 -1,-3.3 H 297.55 L 295,77.35 407.5,78.2 m 0,3.65 -1,-3.25 H 297.55 L 295,81 407.5,81.85 m 0,3.7 -1,-3.3 H 297.55 L 295,84.7 407.5,85.55 m 0,3.65 -1,-3.25 H 297.55 l -2.55,2.4 112.5,0.85 m 0,3.7 -1,-3.3 H 297.55 L 295,92.05 407.5,92.9 m 0,3.65 -1,-3.25 H 297.55 L 295,95.7 Z"
+         id="path6834"
+         inkscape:connector-curvature="0"
+         style="fill:#a5b860;stroke:none" />
+    </g>
+  </g>
+  <g
+     id="g1125"
+     transform="matrix(1.9368896,0,0,1.9368896,-429.04855,-61.50385)">
+    <g
+       id="use1123">
+      <path
+         d="m 401.4,68.5 h -1.45 l -0.75,115.6 h -0.7 l -0.35,4.9 h 2.8 l -0.35,-4.9 h -0.65 z"
+         id="path6890"
+         inkscape:connector-curvature="0"
+         style="fill:#84a1a1;stroke:none" />
+    </g>
+  </g>
+  <g
+     transform="translate(397.48874,282.12615)"
+     id="g1143">
+    <g
+       id="g1141">
+      <g
+         id="use1139"
+         style="filter:url(#Filter_4-2)">
+        <path
+           style="fill:#736357;stroke:none"
+           inkscape:connector-curvature="0"
+           id="path6850"
+           d="M 182.05,19.8 177.25,0 0,6.4 l 19.45,11.35 6,6.35 h 5.85 l 0.9,-6.35 119.05,2.05 4.2,4.3 h 4.65 l 0.9,-4.3 z" />
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(165.43874,173.22615)"
+     id="g1147-0">
+    <g
+       id="use1145-2">
+      <path
+         style="fill:url(#linearGradient6878);stroke:none"
+         inkscape:connector-curvature="0"
+         id="path6874"
          d="m 245.1,133 h 4.4 l -0.8,-18.35 -8.25,-0.05 4.65,18.4 m 139.05,-18.4 -8.2,0.05 -0.8,18.35 h 4.35 z" />
     </g>
   </g>
   <g
-     transform="translate(153.25,173)"
-     id="g1151">
+     transform="translate(165.43874,173.22615)"
+     id="g1151-2">
     <g
-       id="use1149">
+       id="use1149-8">
       <path
-         style="fill:url(#linearGradient1985);stroke:none"
+         style="fill:url(#linearGradient6888);stroke:none"
          inkscape:connector-curvature="0"
-         id="path1981"
+         id="path6884"
          d="m 400.15,114.55 1.15,-5.65 H 222.75 l 1.3,6.4 z" />
     </g>
   </g>
   <g
-     transform="translate(393.9,288.3)"
-     id="g1157">
+     transform="translate(406.08874,288.52615)"
+     id="g1157-3">
     <g
-       id="g1155">
+       id="g1155-6">
       <g
-         id="use1153"
-         style="filter:url(#Filter_1-8)">
+         id="use1153-7"
+         style="filter:url(#Filter_1-1)">
         <path
            style="fill:#b86053;stroke:none"
            inkscape:connector-curvature="0"
-           id="path1993"
+           id="path6854"
            d="M 8.1,0 H 0 l 1.8,7.15 h 6.6 z" />
       </g>
     </g>
   </g>
   <g
-     transform="translate(528.85,287.6)"
-     id="g1163">
+     transform="translate(541.03874,287.82615)"
+     id="g1163-3">
     <g
-       id="g1161">
+       id="g1161-5">
       <g
-         id="use1159"
-         style="filter:url(#Filter_1-8)">
+         id="use1159-6"
+         style="filter:url(#Filter_1-1)">
         <path
            style="fill:#b86053;stroke:none"
            inkscape:connector-curvature="0"
-           id="path1973"
+           id="path6880"
            d="M 8.55,0 0.35,0.05 0,7.2 h 6.75 z" />
       </g>
     </g>
   </g>
   <g
-     transform="translate(456.9,282.9)"
-     id="g1169">
+     transform="translate(469.08874,283.12615)"
+     id="g1169-2">
     <g
-       id="g1167">
+       id="g1167-5">
       <g
-         id="use1165"
-         style="filter:url(#Filter_4-8)">
+         id="use1165-7"
+         style="filter:url(#Filter_4-2)">
         <path
            style="fill:#fff7cc;stroke:none"
            inkscape:connector-curvature="0"
-           id="path1977"
+           id="path6866"
            d="M 9.1,0 H 0 v 4.1 h 8.4 z" />
       </g>
     </g>
   </g>
   <g
-     id="g1492"
-     transform="translate(0.49675634,-0.29423196)">
+     transform="translate(397.48874,283.12615)"
+     id="g1175">
+    <g
+       id="g1173">
+      <g
+         id="use1171"
+         style="filter:url(#Filter_4-2)">
+        <path
+           style="fill:#fff7cc;stroke:none"
+           inkscape:connector-curvature="0"
+           id="path6870"
+           d="M 77.3,4.1 77.25,0 H 0 l 1.25,4.1 z" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1492-6"
+     transform="translate(0.49704581,-0.29404132)">
     <rect
        inkscape:transform-center-y="39.496181"
        inkscape:transform-center-x="3.8757557"
@@ -3787,15 +4759,15 @@
        x="770.72424"
        height="46.43671"
        width="2.6282184"
-       id="rect1428"
+       id="rect1428-8"
        style="fill:#76726f;fill-opacity:1;stroke:#000000;stroke-width:0.54737103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        inkscape:transform-center-y="-13.211902"
        inkscape:transform-center-x="-16.807053"
        inkscape:original-d="m 679.22907,313.63727 c -9.46563,-16.05175 -18.93157,-32.1034 -28.39787,-48.15496 24.13327,-6.66329 48.26632,-13.32651 72.39897,-19.98961 7.69636,15.33832 15.3926,30.67719 23.08838,46.01594 -20.51236,7.44575 -41.02493,14.89154 -61.53791,22.33749 -1.8502,-0.0697 -3.70071,-0.13934 -5.55157,-0.20886 z"
-       inkscape:path-effect="#path-effect1424-7"
+       inkscape:path-effect="#path-effect1424-2"
        inkscape:connector-curvature="0"
-       id="path1422"
+       id="path1422-0"
        d="m 675.42154,305.6463 c -5.65838,-8.06061 -15.12434,-24.11226 -7.7907,-35.46976 7.33363,-11.35751 31.46668,-18.02073 47.38103,-13.68305 15.91434,4.33769 23.61058,19.67656 17.20245,31.06872 -6.40814,11.39216 -26.9207,18.83797 -38.10229,22.52614 -11.18159,3.68817 -13.0321,3.61855 -18.69049,-4.44205 z"
        style="fill:#467958;fill-opacity:1;stroke:#000000;stroke-width:0.5392645;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <ellipse
@@ -3806,7 +4778,7 @@
        rx="28.237125"
        cy="107.07903"
        cx="772.04913"
-       id="path1426"
+       id="path1426-5"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.64211297;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>

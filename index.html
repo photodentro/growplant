@@ -48,7 +48,6 @@
   var windowHitArea;
   var potistiri;
   var plant;
-  var waterBarText;
   var popupCont;
   var popupBkg;
   var popupTxt;
@@ -110,7 +109,6 @@
     popupCont.addChild(popupBkg);
     popupCont.addChild(popupTxt);
     stage.addChild(popupCont);
-    stage.setChildIndex(popupCont,stage.numChildren-1);
     stage.update();
   }
 
@@ -124,17 +122,18 @@
     plant.x = stage.canvas.width / 1.9;
     plant.y = 228/640*stage.canvas.height;
     stage.addChild(plant);
-    stage.setChildIndex(plant,stage.numChildren-1);
+    stage.setChildIndex(plant,stage.numChildren-2);
   } 
 
 
   function drawWaterbar(){
-    waterbarCont.x = 900 / 1120 * stage.canvas.width;
-    waterbarCont.y = 200 / 640 * stage.canvas.height;
-    var targetHeight = 250 / 640 * stage.canvas.height;
+    waterbarCont.x = 630 / 1120 * stage.canvas.width;
+    waterbarCont.y = 260 / 640 * stage.canvas.height;
+    var targetHeight = 25 / 640 * stage.canvas.height;
     waterbar.graphics.clear();
-
-    waterbar.graphics.beginStroke('black').drawRect(0,0,stage.canvas.width/50,targetHeight).beginStroke().beginFill('white').drawRect(0,0,stage.canvas.width/50,targetHeight*(1-waterLevel)).beginFill('blue').drawRect(0,targetHeight*(1-waterLevel),stage.canvas.width/50,targetHeight*waterLevel);
+    console.log(waterLevel);
+    waterbar.graphics.beginStroke('red').setStrokeStyle(2).moveTo(0,0).lineTo(0,-targetHeight);//lineTo(targetHeight*Math.cos(waterLevel/100*Math.PI),targetHeight*Math.sin(waterLevel/100*Math.Pi));
+    waterbar.rotation = (waterLevel - 0.5)*90;
     waterbarCont.addChild(waterbar);
     stage.setChildIndex(waterbarCont,stage.numChildren-1);
   }
@@ -149,8 +148,6 @@
     waterbarCont = new createjs.Container();
     waterbarCont.addChild(waterbar);
     stage.addChild(waterbarCont);
-    waterBarText = new createjs.Text('ΝΕΡΟ','20px Arial', 'black');
-    stage.addChild(waterBarText);
     statusText = new createjs.Text("Φόρτωση...", "20px Arial", "white");
   	statusText.textAlign = "center";
   	statusText.textBaseline = "middle";
@@ -351,10 +348,6 @@ function resize() {
   bg.scaleX = stage.canvas.width / bg.image.width;
   bg.scaleY = stage.canvas.height / bg.image.height;
 
-  waterBarText.font = parseInt(stage.canvas.height/30) + "px Arial";
-  waterBarText.x = 1000/1280*stage.canvas.width;
-  waterBarText.y = 180/720*stage.canvas.height;
-  stage.addChild(waterBarText);
 
   //resize popup if it exists
   if (pu){
@@ -368,8 +361,9 @@ function resize() {
   stage.setChildIndex(statusText, stage.numChildren - 1);
 
   
-  drawWaterbar();
+  
   drawPlant();
+  drawWaterbar();
   stage.update();
 }
 
@@ -411,7 +405,7 @@ function tick(){
         playButton.image = imgByName('playactive.svg');
         return;
       }
-      if (frame < 7){
+      if (frame < 4){
         frame += 1;
         plant.visible = false;
         plant = frameFromSheet(frame);
