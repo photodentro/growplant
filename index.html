@@ -33,7 +33,7 @@
   </canvas>
 <script>
   var stage;
-  var resourceNames = ['bkgOpen.svg', 'bkgClosed.svg', 'bar_home.svg', 'bar_help.svg', 'bar_about.svg', 'bar_previous.svg', 'bar_next.svg', 'potistiri.svg', 'potistiriNero.svg', 'plant.svg', 'popup.svg','playactive.svg','playinactive.svg'];
+  var resourceNames = ['bkgOpen.svg', 'bkgClosed.svg', 'bar_home.svg', 'bar_help.svg', 'bar_about.svg', 'bar_previous.svg', 'bar_next.svg', 'potistiri.svg', 'potistiriNero.svg', 'plant.svg', 'plant_dry.svg', 'plant_mould.svg', 'popup.svg','playactive.svg','playinactive.svg','flower_good.svg'];
   var resourcesLoaded = 0;
   var resources = [];
   var ratio = 16/9;
@@ -64,6 +64,7 @@
   var waterThreshold = 20;
   var timeWithSun = 0; //plant will die if left without sun for some sunPercentage
   var sunThreshold = 0.3;
+  var isring = false;
   var isPlaying = false;
 
   function popup(){
@@ -121,6 +122,7 @@
     plant.scaleY = scale;
     plant.x = stage.canvas.width / 1.9;
     plant.y = 228/640*stage.canvas.height;
+    plant.shadow = new createjs.Shadow('#555555',0,0,stage.canvas.height/100);
     stage.addChild(plant);
     stage.setChildIndex(plant,stage.numChildren-2);
   } 
@@ -131,11 +133,9 @@
     waterbarCont.y = 260 / 640 * stage.canvas.height;
     var targetHeight = 25 / 640 * stage.canvas.height;
     waterbar.graphics.clear();
-    console.log(waterLevel);
-    waterbar.graphics.beginStroke('red').setStrokeStyle(2).moveTo(0,0).lineTo(0,-targetHeight);//lineTo(targetHeight*Math.cos(waterLevel/100*Math.PI),targetHeight*Math.sin(waterLevel/100*Math.Pi));
+    waterbar.graphics.beginStroke('red').setStrokeStyle(stage.canvas.height/200).moveTo(0,0).lineTo(0,-targetHeight);//lineTo(targetHeight*Math.cos(waterLevel/100*Math.PI),targetHeight*Math.sin(waterLevel/100*Math.Pi));
     waterbar.rotation = (waterLevel - 0.5)*90;
-    waterbarCont.addChild(waterbar);
-    stage.setChildIndex(waterbarCont,stage.numChildren-1);
+    stage.setChildIndex(waterbar,stage.numChildren-1);
   }
 
 
@@ -178,7 +178,6 @@ function queueFileLoad(event) {
 }
 
 function queueComplete(event) {
-  console.log("Finished loading resources");
   statusText.visible = false;
   bg = new createjs.Bitmap(imgByName("bkgClosed.svg"));
   stage.addChild(bg);
@@ -204,18 +203,22 @@ function queueComplete(event) {
 
   isWindowOpen = false;
 
-  windowHitArea = new createjs.Shape();    
+  windowHitArea = new createjs.Shape();
+
+      
   windowHitArea.on('click',function(event){
-  	if (isWindowOpen){
-  		bg.image = imgByName('bkgClosed.svg');
-  		resize();
-  		isWindowOpen = false;
-  	}
-  	else{
-  		bg.image = imgByName('bkgOpen.svg');
-  		resize();
-  		isWindowOpen = true;
-  	}
+  	if (isPlaying){
+	  	if (isWindowOpen){
+	  		bg.image = imgByName('bkgClosed.svg');
+	  		resize();
+	  		isWindowOpen = false;
+	  	}
+	  	else{
+	  		bg.image = imgByName('bkgOpen.svg');
+	  		resize();
+	  		isWindowOpen = true;
+	  	}
+	  }
   });
 
   potistiri = new createjs.Bitmap(imgByName('potistiri.svg'));
@@ -245,6 +248,11 @@ function queueComplete(event) {
     if (!isPlaying){
       initSim();
     }
+    else{
+      playButton.image = imgByName('playactive.svg');
+      isPlaying = false;
+      stage.update();
+    }
   });
   stage.addChild(playButton);
   
@@ -256,6 +264,10 @@ function queueComplete(event) {
   popupTxt = new createjs.Text(this.txt,'20px Arial', 'white');
   popupCont.addChild(popupBkg);
 
+  imgSuccess = new createjs.Bitmap(imgByName("flower_good.svg"));
+  imgSuccess.visible = false;
+  stage.addChild(imgSuccess);
+
   resize();
   window.addEventListener('resize', resize, false);
   createjs.Ticker.on('tick', tick);
@@ -263,10 +275,13 @@ function queueComplete(event) {
 }
 
 function initSim(newLevel) {
+
       playButton.image = imgByName('playinactive.svg');
       isPlaying = true;
       frame = 0;
+      bg.image = imgByName('bkgClosed.svg');
       plant.visible = false;
+      plant.image = imgByName('plant.svg');
       plant = frameFromSheet(frame);
       plant.visible = true;
       drawPlant();
@@ -274,7 +289,10 @@ function initSim(newLevel) {
       timeWithSun = 0;
       time = 0;
       waterLevel = 1;
+      endGame = false;
+      imgSuccess.visible = false;
       popupHide();
+      resize();
 
 }
 
@@ -331,13 +349,13 @@ function resize() {
   potistiri.regX = potistiri.image.width / 2;
   potistiri.regY = potistiri.image.height / 2;
   potistiri.x = 420 / 1120 * stage.canvas.width;
-  potistiri.y = 195 / 640 * stage.canvas.height;
+  potistiri.y = 198 / 640 * stage.canvas.height;
 
 
   targetWidth = 150 / 1220 * stage.canvas.width;
   scale = targetWidth / playButton.image.width;
-  playButton.scaleX = scale;
-  playButton.scaleY = scale;
+  playButton.scaleX = 1.5* bbs / menubar[0].image.width;
+  playButton.scaleY = 1.5* bbs / menubar[0].image.width;
   playButton.regX = playButton.image.width / 2;
   playButton.regY = playButton.image.height / 2;
   playButton.x = stage.canvas.width / 2;
@@ -359,8 +377,15 @@ function resize() {
   statusText.textAlign = "right";
   statusText.textBaseline = "alphabetic";
   stage.setChildIndex(statusText, stage.numChildren - 1);
+  stage.setChildIndex(waterbarCont,stage.numChildren-1);
 
-  
+  imgSuccess.scaleY = (2/3) * stage.canvas.height / imgSuccess.image.height;
+  imgSuccess.scaleX = imgSuccess.scaleY;
+  imgSuccess.regX = imgSuccess.image.width / 2;
+  imgSuccess.regY = imgSuccess.image.height / 2;
+  imgSuccess.x = stage.canvas.width / 2;
+  imgSuccess.y = stage.canvas.height / 2;
+
   
   drawPlant();
   drawWaterbar();
@@ -369,7 +394,7 @@ function resize() {
 
 
 function onMenuHelp(event) {
-  alert("Επιλέξτε εικόνες από το κάτω κουτί και βάλτε τις στο δεξί κουτί έτσι ώστε να ταιριάζουν με το αριστερό κουτί.");
+  alert("Χρησιμοποιήστε το ποτιστήρι και το παράθυρο ώστε να αναπτυχθεί το φυτό σας.");
 }
 
 function onMenuHome(event) {
@@ -398,11 +423,16 @@ function tick(){
 
     if (time % 78 == 0){
       if (timeWithSun/time < sunThreshold){
-        pu = new popup();
+        /*pu = new popup();
         popupSetTxt("Το φυτό δεν είχε πολύ φως! \n Άνοιξες το παράθυρο;");
-        popupShow();
+        popupShow();*/
+        plant.image = imgByName('plant_mould.svg');
+        drawPlant();
         isPlaying = false;
+        potistiri.image = imgByName('potistiri.svg');
+        isWatering = false;
         playButton.image = imgByName('playactive.svg');
+        stage.update();
         return;
       }
       if (frame < 4){
@@ -412,11 +442,16 @@ function tick(){
         plant.visible = true;
       }
       else{
-        pu = new popup();
-        popupSetTxt("Μπράβο! Τα κατάφερες!");
-        popupShow();
-        isPlaying = false;
-        playButton.image = imgByName('playactive.svg');        
+        endGame = true;
+        imgSuccess.visible = true;
+        stage.addChild(imgSuccess);
+        setTimeout(function(){
+          imgSuccess.visible = false;
+          endGame = false;
+          isPlaying = false;
+          playButton.image = imgByName('playactive.svg');
+          stage.update();
+    	},2000);
       }
     }
     if (isWatering){
@@ -432,14 +467,25 @@ function tick(){
       else{
         timeWithoutWater += 1;
         if (timeWithoutWater > waterThreshold){
-          pu = new popup();
+          /*pu = new popup();
           popupSetTxt("Το φυτό δεν ποτίστηκε αρκετά.");
-          popupShow();
+          popupShow();*/
+          plant.image = imgByName('plant_dry.svg');
+          drawPlant();
+          potistiri.image = imgByName('potistiri.svg');
+          isWatering = false;
           isPlaying = false;
           playButton.image = imgByName('playactive.svg');
+          stage.update();
         }
       }
     }
+
+    if (endGame) {
+      imgSuccess.scaleX *= 1.02;
+      imgSuccess.scaleY *= 1.02;
+    }
+
     drawPlant();
     drawWaterbar();
     stage.update();
