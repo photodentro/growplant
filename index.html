@@ -409,7 +409,6 @@ function tick(){
     }
 
     if (time % 78 == 0){
-      console.log(timeWithSun/time,sunThreshold);
       if (timeWithSun/time < sunThreshold){
         plant.image = imgByName('plant_mould.svg');
         drawPlant();
