@@ -17,7 +17,7 @@
    viewBox="0 0 1240 720"
    id="svg1062"
    sodipodi:docname="bkgOpen.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata1066">
     <rdf:RDF>
@@ -43,9 +43,9 @@
      inkscape:window-height="705"
      id="namedview1064"
      showgrid="false"
-     inkscape:zoom="0.65189096"
-     inkscape:cx="667.10396"
-     inkscape:cy="364.0421"
+     inkscape:zoom="0.46095652"
+     inkscape:cx="704.81163"
+     inkscape:cy="289.73412"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -3195,16 +3195,13 @@
        spreadMethod="pad" />
   </defs>
   <g
-     id="g595"
+     id="use593"
      transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
-    <g
-       id="use593">
-      <path
-         d="M 880.05,336.55 V 3.35 H 223.7 v 333.2 z"
-         id="path6562"
-         inkscape:connector-curvature="0"
-         style="fill:#c4b24b;stroke:none" />
-    </g>
+    <path
+       style="fill:#c4b24b;stroke:none"
+       inkscape:connector-curvature="0"
+       id="path6562"
+       d="M 880.05,336.55 V 3.35 H 223.7 v 333.2 z" />
   </g>
   <g
      id="g599"
@@ -3242,21 +3239,15 @@
          style="fill:url(#linearGradient6578);stroke:none" />
     </g>
   </g>
-  <g
-     id="g1042"
-     transform="matrix(2.0527132,0,0,3.3543122,-35.015407,-51.381812)">
-    <g
-       id="g1040">
-      <use
-         height="100%"
-         width="100%"
-         y="0"
-         x="0"
-         style="filter:url(#Filter_4)"
-         id="use1038"
-         xlink:href="#flash0_ai_layer__Path__1_10_0_Layer0_0_FILL" />
-    </g>
-  </g>
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     style="filter:url(#Filter_4)"
+     id="use1038"
+     xlink:href="#flash0_ai_layer__Path__1_10_0_Layer0_0_FILL"
+     transform="matrix(2.0527132,0,0,3.3543122,-35.015407,-51.381812)" />
   <g
      id="g611"
      transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
@@ -4430,7 +4421,7 @@
   </g>
   <g
      id="g1045"
-     transform="matrix(2.0040588,0,0,2.0040588,-452.94855,-61.75385)">
+     transform="matrix(2.0040588,0,0,2.0040588,-484.94855,-61.75385)">
     <g
        id="use1043">
       <path
@@ -4701,7 +4692,7 @@
     </g>
   </g>
   <g
-     transform="translate(541.03874,287.82615)"
+     transform="translate(509.03874,287.82615)"
      id="g1163-3">
     <g
        id="g1161-5">

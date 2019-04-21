@@ -31,6 +31,7 @@
   <canvas id="mainCanvas" width="320" height="180">
     Your browser doesn't support HTML5!
   </canvas>
+  <audio id="audiohelp"><source src="resource/help.mp3" type="audio/mp3"></audio>
 <script>
   var stage;
   var resourceNames = ['bkgOpen.svg', 'bkgClosed.svg', 'bar_home.svg', 'bar_help.svg', 'bar_about.svg', 'bar_fullscreen.svg', 'potistiri.svg', 'potistiriNero.svg', 'plant.svg', 'plant_dry.svg', 'plant_mould.svg', 'playactive.svg','playinactive.svg','flower_good.svg'];
@@ -65,13 +66,15 @@
   var wasPlaying = false;
   var theHelpBox;
   var theHelpText;
+  var endGame = false;
 
 
   function theHelp_hide(){
+  	  isPlaying = wasPlaying;
       theHelpBox.visible = false;
       theHelpText.visible = false;
       stage.update();
-      isPlaying = wasPlaying;
+      document.getElementById('audiohelp').pause();
   }
   function theHelp(msg){
     this.create = function(){
@@ -97,13 +100,16 @@
 
     }
     this.show = function(){
+      wasPlaying = isPlaying
+      isPlaying = false;
       stage.addChild(theHelpBox);
       stage.addChild(theHelpText);
       theHelpBox.visible = true;
       theHelpText.visible = true;
-      wasPlaying = isPlaying;
-      isPlaying = false;
+      document.getElementById('audiohelp').currentTime = 0;
+      document.getElementById('audiohelp').play();
       stage.update();
+
     }
     this.hide = theHelp_hide;
   }
@@ -239,13 +245,17 @@ function queueComplete(event) {
   playButton = new createjs.Bitmap(imgByName('playactive.svg'));
   playButton.cursor = "pointer";
   playButton.addEventListener('click',function(event){
+    if (theHelpBox.visible){
+      theHelp.hide();
+    }
     if (!isPlaying){
       initSim();
+      isPlaying = true;
     }
     else{
       playButton.image = imgByName('playactive.svg');
-      isPlaying = false;
       stage.update();
+      isPlaying = false;
     }
   });
   stage.addChild(playButton);
@@ -258,7 +268,7 @@ function queueComplete(event) {
   imgSuccess.visible = false;
   stage.addChild(imgSuccess);
 
-  theHelp = new theHelp("Πειραματίσου με τον ήλιο και το νερό για να δεις τι γίνεται με το φυτό.")
+  theHelp = new theHelp("Πειραματίσου με τον ήλιο και το νερό για να δεις τι γίνεται στο τέλος με το φυτό.")
   theHelp.create();
   theHelp.hide();
 
@@ -271,7 +281,6 @@ function queueComplete(event) {
 function initSim(newLevel) {
 
       playButton.image = imgByName('playinactive.svg');
-      isPlaying = true;
       frame = 0;
       bg.image = imgByName('bkgClosed.svg');
       plant.visible = false;
@@ -341,7 +350,7 @@ function resize() {
   potistiri.scaleY = scale;
   potistiri.regX = potistiri.image.width / 2;
   potistiri.regY = potistiri.image.height / 2;
-  potistiri.x = 420 / 1120 * stage.canvas.width;
+  potistiri.x = 430 / 1120 * stage.canvas.width;
   potistiri.y = 198 / 640 * stage.canvas.height;
 
 
@@ -434,18 +443,23 @@ function tick(){
       }
       else{
         endGame = true;
+        isPlaying = false;
         imgSuccess.visible = true;
         stage.addChild(imgSuccess);
         setTimeout(function(){
           imgSuccess.visible = false;
           endGame = false;
-          isPlaying = false;
           playButton.image = imgByName('playactive.svg');
           stage.update();
     	},2000);
       }
     }
     if (isWatering){
+      var pt = potistiri.globalToLocal(stage.mouseX,stage.mouseY);
+      if(!potistiri.hitTest(pt.x,pt.y)){
+      	potistiri.image = imgByName('potistiri.svg');
+    	isWatering = false;
+      }
       timeWithoutWater = 0;
       if (waterLevel < 1){
         waterLevel += 0.01;
@@ -468,12 +482,6 @@ function tick(){
         }
       }
     }
-    
-    if (endGame) {
-      imgSuccess.scaleX *= 1.02;
-      imgSuccess.scaleY *= 1.02;
-    }
-
     drawPlant();
     drawWaterbar();
     stage.update();
@@ -482,6 +490,12 @@ function tick(){
     	windowHitArea.cursor = "";
   		potistiri.cursor = "";
     }
+  if (endGame) {
+      imgSuccess.scaleX *= 1.02;
+      imgSuccess.scaleY *= 1.02;
+      stage.update();
+  }
+
   }
 
 //helper functions
